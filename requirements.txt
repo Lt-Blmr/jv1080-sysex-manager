@@ -1,0 +1,8 @@
+# JV-1080 SysEx Manager Requirements
+mido>=1.2.10
+python-rtmidi>=1.4.0
+PyYAML>=6.0
+pytest>=7.0.0
+
+# Optional GUI dependencies
+# tkinter - Usually included with Python, no need to install

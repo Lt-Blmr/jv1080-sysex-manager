@@ -1,0 +1,795 @@
+roland_jv_1080:
+  sysex_common_info:
+    manufacturer_id_hex: "41" # Roland
+    model_id_hex: "6A"      # JV-1080
+    command_id_dt1_hex: "12" # DT1 (Data Set 1)
+    command_id_rq1_hex: "11" # RQ1 (Request Data 1)
+    sysex_structure_note: "SysEx Message Body (between F0 and F7, excluding checksum): ManufacturerID DeviceID ModelID CommandID Addr1 Addr2 Addr3 Addr4(ParamOffset) Data1 [Data2 ...] Checksum. Addr1-Addr4 form the 4-byte Roland parameter address."
+    checksum_note: "Checksum is calculated over the address and data bytes (Addr1 through last Data byte). The sum of these bytes plus the checksum byte, all modulo 128, should be 0. Formula: 128 - ( (Addr1+...+Addr4+Data1+...+DataN) % 128 ) % 128."
+    device_id_note: "Device ID (Dev) is typically 10H (for unit 17, as 17-1=16=10H) but is user-configurable."
+
+  sysex_parameter_groups:
+    temp_performance_common:
+      description: "Temporary Performance Common Parameters"
+      default_device_id_hex: "10"
+      address_bytes_1_3_hex: ["01", "00", "00"]
+      parameters:
+        - name: "Performance name 1"
+          offset_hex: "00"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Performance name 2"
+          offset_hex: "01"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Performance name 3"
+          offset_hex: "02"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Performance name 4"
+          offset_hex: "03"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Performance name 5"
+          offset_hex: "04"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Performance name 6"
+          offset_hex: "05"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Performance name 7"
+          offset_hex: "06"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Performance name 8"
+          offset_hex: "07"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Performance name 9"
+          offset_hex: "08"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Performance name 10"
+          offset_hex: "09"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Performance name 11"
+          offset_hex: "0A"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Performance name 12"
+          offset_hex: "0B"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "EFX:Source"
+          offset_hex: "0C"
+          min: 0
+          max: 15
+          bytes: 1
+        - name: "EFX:Type"
+          offset_hex: "0D"
+          min: 0
+          max: 39
+          bytes: 1
+        - name: "EFX:Parameter 1"
+          offset_hex: "0E"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "EFX:Parameter 2"
+          offset_hex: "0F"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "EFX:Parameter 3"
+          offset_hex: "10"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "EFX:Parameter 4"
+          offset_hex: "11"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "EFX:Output assign"
+          offset_hex: "1A"
+          min: 0
+          max: 2
+          bytes: 1
+        - name: "EFX:Output level"
+          offset_hex: "1B"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Chorus:Level"
+          offset_hex: "22"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Chorus:Rate"
+          offset_hex: "23"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Reverb:type"
+          offset_hex: "28"
+          min: 0
+          max: 7
+          bytes: 1
+        - name: "Reverb:Level"
+          offset_hex: "29"
+          min: 0
+          max: 127
+          bytes: 1
+
+    temp_performance_part_1:
+      description: "Temporary Performance Part 1 Parameters"
+      default_device_id_hex: "10"
+      address_bytes_1_3_hex: ["01", "00", "10"]
+      parameters:
+        - name: "MIDI receive switch"
+          offset_hex: "00"
+          min: 0
+          max: 1
+          bytes: 1
+        - name: "MIDI channel"
+          offset_hex: "01"
+          min: 0
+          max: 15
+          bytes: 1
+        - name: "Patch group"
+          offset_hex: "02"
+          min: 0
+          max: 2
+          bytes: 1
+        - name: "Patch group ID"
+          offset_hex: "03"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Level"
+          offset_hex: "04"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Pan"
+          offset_hex: "05"
+          min: 1
+          max: 127
+          bytes: 1
+        - name: "Coarse tune"
+          offset_hex: "06"
+          min: 16
+          max: 112
+          bytes: 1
+        - name: "Fine tune"
+          offset_hex: "07"
+          min: 14
+          max: 114
+          bytes: 1
+
+    temp_patch_common:
+      description: "Temporary Patch Common Parameters"
+      default_device_id_hex: "10"
+      address_bytes_1_3_hex: ["01", "00", "20"]
+      parameters:
+        - name: "Patch name 1"
+          offset_hex: "00"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Patch name 2"
+          offset_hex: "01"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Patch name 3"
+          offset_hex: "02"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Patch name 4"
+          offset_hex: "03"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Patch name 5"
+          offset_hex: "04"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Patch name 6"
+          offset_hex: "05"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Patch name 7"
+          offset_hex: "06"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Patch name 8"
+          offset_hex: "07"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Patch name 9"
+          offset_hex: "08"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Patch name 10"
+          offset_hex: "09"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Patch name 11"
+          offset_hex: "0A"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Patch name 12"
+          offset_hex: "0B"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Patch level"
+          offset_hex: "0C"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Patch pan"
+          offset_hex: "0D"
+          min: 1
+          max: 127
+          bytes: 1
+
+    # ========================================
+    # EXPANSION CARD PATCH COMMON PARAMETERS
+    # ========================================
+    expansion_patch_common:
+      description: "Expansion Card Patch Common Parameters"
+      default_device_id_hex: "10"
+      address_bytes_1_3_hex: ["11", "00", "20"]
+      parameters:
+        # Patch name bytes (1–12)
+        - name: "Patch name 1"
+          offset_hex: "00"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Patch name 2"
+          offset_hex: "01"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Patch name 3"
+          offset_hex: "02"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Patch name 4"
+          offset_hex: "03"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Patch name 5"
+          offset_hex: "04"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Patch name 6"
+          offset_hex: "05"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Patch name 7"
+          offset_hex: "06"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Patch name 8"
+          offset_hex: "07"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Patch name 9"
+          offset_hex: "08"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Patch name 10"
+          offset_hex: "09"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Patch name 11"
+          offset_hex: "0A"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Patch name 12"
+          offset_hex: "0B"
+          min: 32
+          max: 127
+          bytes: 1
+        # Common patch parameters
+        - name: "Patch level"
+          offset_hex: "0C"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Patch pan"
+          offset_hex: "0D"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "EFX Parameter 2"
+          offset_hex: "0E"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "EFX Parameter 3"
+          offset_hex: "0F"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "EFX Parameter 4"
+          offset_hex: "10"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "EFX Parameter 5"
+          offset_hex: "11"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "EFX Parameter 6"
+          offset_hex: "12"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "EFX Parameter 7"
+          offset_hex: "13"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "EFX Parameter 8"
+          offset_hex: "14"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "EFX Parameter 9"
+          offset_hex: "15"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "EFX Parameter 10"
+          offset_hex: "16"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "EFX Parameter 11"
+          offset_hex: "17"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "EFX Parameter 12"
+          offset_hex: "18"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "EFX Output Assign"
+          offset_hex: "19"
+          min: 0
+          max: 2
+          bytes: 1
+        - name: "EFX Control Source 1"
+          offset_hex: "1A"
+          min: 0
+          max: 10
+          bytes: 1
+        - name: "EFX Control Depth 1"
+          offset_hex: "1B"
+          min: 0
+          max: 126
+          bytes: 1
+        - name: "EFX Control Source 2"
+          offset_hex: "1C"
+          min: 0
+          max: 10
+          bytes: 1
+        - name: "EFX Control Depth 2"
+          offset_hex: "1D"
+          min: 0
+          max: 126
+          bytes: 1
+        - name: "Chorus Level"
+          offset_hex: "1E"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Chorus Rate"
+          offset_hex: "1F"
+          min: 0
+          max: 127
+          bytes: 1
+
+    # ========================================
+    # EXPANSION CARD PATCH PART PARAMETERS
+    # ========================================
+    expansion_patch_part_1:
+      description: "Expansion Card Patch Part 1 Parameters"
+      default_device_id_hex: "10"
+      address_bytes_1_3_hex: ["11", "00", "22"]
+      parameters:
+        - name: "Part 1 bank select MSB"
+          offset_hex: "00"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Part 1 bank select LSB"
+          offset_hex: "01"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Part 1 program change"
+          offset_hex: "02"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Part 1 level"
+          offset_hex: "03"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Part 1 pan"
+          offset_hex: "04"
+          min: 1
+          max: 127
+          bytes: 1
+        # TODO: complete parameters for offsets 0x05–0x1F
+        # These should include part-specific controls (e.g., expression, portamento settings, LFO depth, etc.) per the JV-1080 spec.
+    expansion_patch_part_2:
+      description: "Expansion Card Patch Part 2 Parameters"
+      default_device_id_hex: "10"
+      address_bytes_1_3_hex: ["11", "00", "24"]
+      parameters:
+        - name: "Part 2 bank select MSB"
+          offset_hex: "00"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Part 2 bank select LSB"
+          offset_hex: "01"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Part 2 program change"
+          offset_hex: "02"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Part 2 level"
+          offset_hex: "03"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Part 2 pan"
+          offset_hex: "04"
+          min: 1
+          max: 127
+          bytes: 1
+        # TODO: complete parameters for offsets 0x05–0x1F
+        # See patch part 1 notes above for required fields.
+    expansion_patch_part_3:
+      description: "Expansion Card Patch Part 3 Parameters"
+      default_device_id_hex: "10"
+      address_bytes_1_3_hex: ["11", "00", "26"]
+      parameters:
+        - name: "Part 3 bank select MSB"
+          offset_hex: "00"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Part 3 bank select LSB"
+          offset_hex: "01"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Part 3 program change"
+          offset_hex: "02"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Part 3 level"
+          offset_hex: "03"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Part 3 pan"
+          offset_hex: "04"
+          min: 1
+          max: 127
+          bytes: 1
+        # TODO: complete parameters for offsets 0x05–0x1F
+        # See patch part 1 notes above for required fields.
+    expansion_patch_part_4:
+      description: "Expansion Card Patch Part 4 Parameters"
+      default_device_id_hex: "10"
+      address_bytes_1_3_hex: ["11", "00", "28"]
+      parameters:
+        - name: "Part 4 bank select MSB"
+          offset_hex: "00"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Part 4 bank select LSB"
+          offset_hex: "01"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Part 4 program change"
+          offset_hex: "02"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Part 4 level"
+          offset_hex: "03"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Part 4 pan"
+          offset_hex: "04"
+          min: 1
+          max: 127
+          bytes: 1
+        # TODO: complete parameters for offsets 0x05–0x1F
+        # See patch part 1 notes above for required fields.
+    # ========================================
+    # EXPANSION CARD RHYTHM COMMON PARAMETERS
+    # ========================================
+    expansion_rhythm_common:
+      description: "Expansion Card Rhythm Common Parameters"
+      default_device_id_hex: "10"
+      address_bytes_1_3_hex: ["11", "09", "00"]
+      parameters:
+        - name: "Rhythm name 1"
+          offset_hex: "00"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Rhythm name 2"
+          offset_hex: "01"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Rhythm name 3"
+          offset_hex: "02"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Rhythm name 4"
+          offset_hex: "03"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Rhythm name 5"
+          offset_hex: "04"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Rhythm name 6"
+          offset_hex: "05"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Rhythm name 7"
+          offset_hex: "06"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Rhythm name 8"
+          offset_hex: "07"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Rhythm name 9"
+          offset_hex: "08"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Rhythm name 10"
+          offset_hex: "09"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Rhythm name 11"
+          offset_hex: "0A"
+          min: 32
+          max: 127
+          bytes: 1
+        - name: "Rhythm name 12"
+          offset_hex: "0B"
+          min: 32
+          max: 127
+          bytes: 1
+
+    # ========================================
+    # EXPANSION CARD RHYTHM PART PARAMETERS (Key#35 = part 1)
+    # ========================================
+    expansion_rhythm_part_1:
+      description: "Expansion Card Rhythm Note Parameters"
+      default_device_id_hex: "10"
+      address_bytes_1_3_hex: ["11", "09", "23"]
+      parameters:
+        - name: "Tone Switch"
+          offset_hex: "00"
+          min: 0
+          max: 1
+          bytes: 1
+        - name: "Wave Group Type"
+          offset_hex: "01"
+          min: 0
+          max: 2
+          bytes: 1
+        - name: "Wave Group ID"
+          offset_hex: "02"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Wave Number"
+          offset_hex: "03"
+          min: 0
+          max: 254
+          bytes: 1
+        - name: "Wave Gain"
+          offset_hex: "05"
+          min: 0
+          max: 3
+          bytes: 1
+        - name: "Bend Range"
+          offset_hex: "06"
+          min: 0
+          max: 12
+          bytes: 1
+        - name: "Mute Group"
+          offset_hex: "07"
+          min: 0
+          max: 31
+          bytes: 1
+        - name: "Envelope Mode"
+          offset_hex: "08"
+          min: 0
+          max: 1
+          bytes: 1
+        - name: "Volume Control Switch"
+          offset_hex: "09"
+          min: 0
+          max: 1
+          bytes: 1
+        - name: "Hold-1 Control Switch"
+          offset_hex: "0A"
+          min: 0
+          max: 1
+          bytes: 1
+        - name: "Pan Control Switch"
+          offset_hex: "0B"
+          min: 0
+          max: 2
+          bytes: 1
+        - name: "Coarse Tune"
+          offset_hex: "0C"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Fine Tune"
+          offset_hex: "0D"
+          min: 0
+          max: 100
+          bytes: 1
+        - name: "Random Pitch Depth"
+          offset_hex: "0E"
+          min: 0
+          max: 30
+          bytes: 1
+        - name: "Pitch Envelope Depth"
+          offset_hex: "0F"
+          min: 0
+          max: 24
+          bytes: 1
+        - name: "Pitch Envelope Velocity Sens"
+          offset_hex: "10"
+          min: -100
+          max: 150
+          bytes: 1
+        - name: "Pitch Envelope Velocity Time"
+          offset_hex: "11"
+          min: -100
+          max: 100
+          bytes: 1
+        - name: "Pitch Envelope Time 1"
+          offset_hex: "12"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Pitch Envelope Time 2"
+          offset_hex: "13"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Pitch Envelope Time 3"
+          offset_hex: "14"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Pitch Envelope Time 4"
+          offset_hex: "15"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Pitch Envelope Level 1"
+          offset_hex: "16"
+          min: 0
+          max: 126
+          bytes: 1
+        - name: "Pitch Envelope Level 2"
+          offset_hex: "17"
+          min: 0
+          max: 126
+          bytes: 1
+        - name: "Pitch Envelope Level 3"
+          offset_hex: "18"
+          min: 0
+          max: 126
+          bytes: 1
+        - name: "Pitch Envelope Level 4"
+          offset_hex: "19"
+          min: 0
+          max: 126
+          bytes: 1
+        - name: "Filter Type"
+          offset_hex: "1A"
+          min: 0
+          max: 4
+          bytes: 1
+        - name: "Cutoff Frequency"
+          offset_hex: "1B"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Resonance"
+          offset_hex: "1C"
+          min: 0
+          max: 127
+          bytes: 1
+        - name: "Resonance Velocity Sens"
+          offset_hex: "1D"
+          min: -100
+          max: 150
+          bytes: 1
+        - name: "Filter Envelope Depth"
+          offset_hex: "1E"
+          min: 0
+          max: 126
+          bytes: 1
+        - name: "Filter Envelope Velocity Sens"
+          offset_hex: "1F"
+          min: -100
+          max: 150
+          bytes: 1
+        # TODO: define expansion_rhythm_part_2 through expansion_rhythm_part_64
+        # Copy all parameters from rhythm part 1 and increment the address_bytes_1_3_hex third byte from 0x23 up to 0x62.

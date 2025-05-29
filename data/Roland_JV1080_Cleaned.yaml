@@ -1,0 +1,1527 @@
+CC_Assignments:
+- Comments: Custom CC for waveform selection
+  Function: Tone Waveform
+  Mapped_CC: 20
+  Parameter: Parameter 1
+- Comments: Custom CC for enabling/disabling the tone
+  Function: Tone On/Off
+  Mapped_CC: 21
+  Parameter: Parameter 2
+- Comments: Custom CC for enabling/disabling EFX
+  Function: EFX On/Off
+  Mapped_CC: 22
+  Parameter: Parameter 3
+- Comments: Custom CC for adjusting EFX Level
+  Function: EFX Level
+  Mapped_CC: 23
+  Parameter: Parameter 4
+- Comments: Standard CC for Chorus send level
+  Function: Chorus Level
+  Mapped_CC: 93
+  Parameter: Parameter 5
+- Comments: Custom CC for enabling/disabling Chorus
+  Function: Chorus On/Off
+  Mapped_CC: 24
+  Parameter: Parameter 6
+- Comments: Standard CC for Reverb send level
+  Function: Reverb Level
+  Mapped_CC: 91
+  Parameter: Parameter 7
+- Comments: Custom CC for enabling/disabling Reverb
+  Function: Reverb On/Off
+  Mapped_CC: 25
+  Parameter: Parameter 8
+- Comments: Standard CC for Volume/Mix Level
+  Function: Mix Level
+  Mapped_CC: 7
+  Parameter: Parameter 9
+- Comments: Standard CC for Tone Pan
+  Function: Tone Pan
+  Mapped_CC: 10
+  Parameter: Parameter 10
+- Comments: Standard CC for expression
+  Function: Expression
+  Mapped_CC: 11
+  Parameter: Parameter 11
+- Comments: Standard CC for enabling/disabling Portamento
+  Function: Portamento On/Off
+  Mapped_CC: 65
+  Parameter: Parameter 12
+MIDI_Bank_Select: []
+Patches:
+- Patch_Name: 0=USER:001 Symphonique
+  Patch_Number: 1.0
+- Patch_Name: 1=USER:002 Alternative
+  Patch_Number: 2.0
+- Patch_Name: 2=USER:003 Velo Teckno 1
+  Patch_Number: 3.0
+- Patch_Name: 3=USER:004 West Coast
+  Patch_Number: 4.0
+- Patch_Name: 4=USER:005 Albion
+  Patch_Number: 5.0
+- Patch_Name: 5=USER:006 Jz Gtr Hall
+  Patch_Number: 6.0
+- Patch_Name: 6=USER:007 Rocker Spin
+  Patch_Number: 7.0
+- Patch_Name: 7=USER:008 101  Bass
+  Patch_Number: 8.0
+- Patch_Name: 8=USER:009 Claviduck
+  Patch_Number: 9.0
+- Patch_Name: 9=USER:010 Jet Pad 2
+  Patch_Number: 10.0
+- Patch_Name: 10=USER:011 Raggatronic
+  Patch_Number: 11.0
+- Patch_Name: 11=USER:012 Crunch Split
+  Patch_Number: 12.0
+- Patch_Name: 12=USER:013 Running Pad
+  Patch_Number: 13.0
+- Patch_Name: 13=USER:014 Brass Sect
+  Patch_Number: 14.0
+- Patch_Name: 14=USER:015 Flying Waltz
+  Patch_Number: 15.0
+- Patch_Name: 15=USER:016 Pure Tibet
+  Patch_Number: 16.0
+- Patch_Name: 16=USER:017 4 Hits 4 You
+  Patch_Number: 17.0
+- Patch_Name: 17=USER:018 Waterhodes
+  Patch_Number: 18.0
+- Patch_Name: 18=USER:019 Blade Racer
+  Patch_Number: 19.0
+- Patch_Name: 19=USER:020 JC Strat
+  Patch_Number: 20.0
+- Patch_Name: 20=USER:021 Dawn 2 Dusk
+  Patch_Number: 21.0
+- Patch_Name: 21=USER:022 Saw Mass
+  Patch_Number: 22.0
+- Patch_Name: 22=USER:023 Steel Away
+  Patch_Number: 23.0
+- Patch_Name: 23=USER:024 64voicePiano
+  Patch_Number: 24.0
+- Patch_Name: 24=USER:025 Wave Bells
+  Patch_Number: 25.0
+- Patch_Name: 25=USER:026 JP-8Haunting
+  Patch_Number: 26.0
+- Patch_Name: 26=USER:027 Vanishing
+  Patch_Number: 27.0
+- Patch_Name: 27=USER:028 Harmonica
+  Patch_Number: 28.0
+- Patch_Name: 28=USER:029 Film Octaves
+  Patch_Number: 29.0
+- Patch_Name: 29=USER:030 Edye Boost
+  Patch_Number: 30.0
+- Patch_Name: 30=USER:031 AugerMentive
+  Patch_Number: 31.0
+- Patch_Name: 31=USER:032 Deep Strings
+  Patch_Number: 32.0
+- Patch_Name: 32=USER:033 Chime Wash
+  Patch_Number: 33.0
+- Patch_Name: 33=USER:034 SA Rhodes 1
+  Patch_Number: 34.0
+- Patch_Name: 34=USER:035 3D Flanged
+  Patch_Number: 35.0
+- Patch_Name: 35=USER:036 Ac.Upright
+  Patch_Number: 36.0
+- Patch_Name: 36=USER:037 Poly Brass
+  Patch_Number: 37.0
+- Patch_Name: 37=USER:038 Dissimilate
+  Patch_Number: 38.0
+- Patch_Name: 38=USER:039 Dulcimer
+  Patch_Number: 39.0
+- Patch_Name: 39=USER:040 Fantasy Vox
+  Patch_Number: 40.0
+- Patch_Name: 40=USER:041 Dist Gtr 1
+  Patch_Number: 41.0
+- Patch_Name: 41=USER:042 Sax Section
+  Patch_Number: 42.0
+- Patch_Name: 42=USER:043 Aurora
+  Patch_Number: 43.0
+- Patch_Name: 43=USER:044 St.Strings
+  Patch_Number: 44.0
+- Patch_Name: 44=USER:045 AmbienceVibe
+  Patch_Number: 45.0
+- Patch_Name: 45=USER:046 Cascade
+  Patch_Number: 46.0
+- Patch_Name: 46=USER:047 AltoLead Sax
+  Patch_Number: 47.0
+- Patch_Name: 47=USER:048 PWM Strings
+  Patch_Number: 48.0
+- Patch_Name: 48=USER:049 Childlike
+  Patch_Number: 49.0
+- Patch_Name: 49=USER:050 Velo Tekno 2
+  Patch_Number: 50.0
+- Patch_Name: 50=USER:051 Taj Mahal
+  Patch_Number: 51.0
+- Patch_Name: 51=USER:052 D-50 Stack
+  Patch_Number: 52.0
+- Patch_Name: 52=USER:053 ChamberWoods
+  Patch_Number: 53.0
+- Patch_Name: 53=USER:054 Pulse Key
+  Patch_Number: 54.0
+- Patch_Name: 54=USER:055 Mondo Bass
+  Patch_Number: 55.0
+- Patch_Name: 55=USER:056 Velo-Wah Gtr
+  Patch_Number: 56.0
+- Patch_Name: 56=USER:057 Sitar
+  Patch_Number: 57.0
+- Patch_Name: 57=USER:058 Purple Spin
+  Patch_Number: 58.0
+- Patch_Name: 58=USER:059 RandomVowels
+  Patch_Number: 59.0
+- Patch_Name: 59=USER:060 Big BPF
+  Patch_Number: 60.0
+- Patch_Name: 60=USER:061 Dunes
+  Patch_Number: 61.0
+- Patch_Name: 61=USER:062 Heirborne
+  Patch_Number: 62.0
+- Patch_Name: 62=USER:063 PsychoRhodes
+  Patch_Number: 63.0
+- Patch_Name: 63=USER:064 Tortured
+  Patch_Number: 64.0
+- Patch_Name: 64=USER:065 Bass Marimba
+  Patch_Number: 65.0
+- Patch_Name: 65=USER:066 Syncrosonix
+  Patch_Number: 66.0
+- Patch_Name: 66=USER:067 MandolinTrem
+  Patch_Number: 67.0
+- Patch_Name: 67=USER:068 Poly Saws
+  Patch_Number: 68.0
+- Patch_Name: 68=USER:069 Pulse Pad
+  Patch_Number: 69.0
+- Patch_Name: 69=USER:070 Nylon Gtr
+  Patch_Number: 70.0
+- Patch_Name: 70=USER:071 ORBit Pad
+  Patch_Number: 71.0
+- Patch_Name: 71=USER:072 Majestic Tpt
+  Patch_Number: 72.0
+- Patch_Name: 72=USER:073 Terminate
+  Patch_Number: 73.0
+- Patch_Name: 73=USER:074 SquareLead 1
+  Patch_Number: 74.0
+- Patch_Name: 74=USER:075 House Piano
+  Patch_Number: 75.0
+- Patch_Name: 75=USER:076 Fooled Again
+  Patch_Number: 76.0
+- Patch_Name: 76=USER:077 Pick Bass
+  Patch_Number: 77.0
+- Patch_Name: 77=USER:078 Wide Tubular
+  Patch_Number: 78.0
+- Patch_Name: 78=USER:079 Velo-Rez Clv
+  Patch_Number: 79.0
+- Patch_Name: 79=USER:080 Airplaaane
+  Patch_Number: 80.0
+- Patch_Name: 80=USER:081 Delicate EP
+  Patch_Number: 81.0
+- Patch_Name: 81=USER:082 Rezoid
+  Patch_Number: 82.0
+- Patch_Name: 82=USER:083 E-Motion Pad
+  Patch_Number: 83.0
+- Patch_Name: 83=USER:084 Phripphuzz
+  Patch_Number: 84.0
+- Patch_Name: 84=USER:085 Archimede
+  Patch_Number: 85.0
+- Patch_Name: 85=USER:086 Intentions
+  Patch_Number: 86.0
+- Patch_Name: 86=USER:087 Nylon Rhodes
+  Patch_Number: 87.0
+- Patch_Name: 87=USER:088 Huff N Stuff
+  Patch_Number: 88.0
+- Patch_Name: 88=USER:089 Finger Bass
+  Patch_Number: 89.0
+- Patch_Name: 89=USER:090 Gospel Spin
+  Patch_Number: 90.0
+- Patch_Name: 90=USER:091 Harmonicum
+  Patch_Number: 91.0
+- Patch_Name: 91=USER:092 Impact
+  Patch_Number: 92.0
+- Patch_Name: 92=USER:093 Rotary Gtr
+  Patch_Number: 93.0
+- Patch_Name: 93=USER:094 Tp&Sax Sect
+  Patch_Number: 94.0
+- Patch_Name: 94=USER:095 Tubular Vox
+  Patch_Number: 95.0
+- Patch_Name: 95=USER:096 Sawteeth
+  Patch_Number: 96.0
+- Patch_Name: 96=USER:097 Ocean Floor
+  Patch_Number: 97.0
+- Patch_Name: 97=USER:098 E.Grand
+  Patch_Number: 98.0
+- Patch_Name: 98=USER:099 Clarinet mp
+  Patch_Number: 99.0
+- Patch_Name: 99=USER:100 Bass In Face
+  Patch_Number: 100.0
+- Patch_Name: 100=USER:101 BritelowBass
+  Patch_Number: 101.0
+- Patch_Name: 101=USER:102 Mellow Bars
+  Patch_Number: 102.0
+- Patch_Name: 102=USER:103 LetterFrmPat
+  Patch_Number: 103.0
+- Patch_Name: 103=USER:104 MG Solo
+  Patch_Number: 104.0
+- Patch_Name: 104=USER:105 Air Lead
+  Patch_Number: 105.0
+- Patch_Name: 105=USER:106 Raya Shaku
+  Patch_Number: 106.0
+- Patch_Name: 106=USER:107 Greek Power
+  Patch_Number: 107.0
+- Patch_Name: 107=USER:108 Biosphere
+  Patch_Number: 108.0
+- Patch_Name: 108=USER:109 EP+Mod Pad
+  Patch_Number: 109.0
+- Patch_Name: 109=USER:110 Chambers
+  Patch_Number: 110.0
+- Patch_Name: 110=USER:111 Nomad Perc
+  Patch_Number: 111.0
+- Patch_Name: 111=USER:112 Horn Swell
+  Patch_Number: 112.0
+- Patch_Name: 112=USER:113 Hillbillys
+  Patch_Number: 113.0
+- Patch_Name: 113=USER:114 Night Shade
+  Patch_Number: 114.0
+- Patch_Name: 114=USER:115 Nice Piano
+  Patch_Number: 115.0
+- Patch_Name: 115=USER:116 VOX Flute
+  Patch_Number: 116.0
+- Patch_Name: 116=USER:117 Music Bells
+  Patch_Number: 117.0
+- Patch_Name: 117=USER:118 JUNO Strings
+  Patch_Number: 118.0
+- Patch_Name: 118=USER:119 Bs/Pno+Brs
+  Patch_Number: 119.0
+- Patch_Name: 119=USER:120 Dark Vox
+  Patch_Number: 120.0
+- Patch_Name: 120=USER:121 Bass Pizz
+  Patch_Number: 121.0
+- Patch_Name: 121=USER:122 Seq Mallet
+  Patch_Number: 122.0
+- Patch_Name: 122=USER:123 Variable Run
+  Patch_Number: 123.0
+- Patch_Name: 123=USER:124 Cyber Space
+  Patch_Number: 124.0
+- Patch_Name: 124=USER:125 12str Gtr 1
+  Patch_Number: 125.0
+- Patch_Name: 125=USER:126 PianoStrings
+  Patch_Number: 126.0
+- Patch_Name: 126=USER:127 Sands ofTime
+  Patch_Number: 127.0
+- Patch_Name: 127=USER:128 Fantasia JV
+  Patch_Number: 128.0
+- Patch_Name: 0=PR-A:001 64voicePiano
+  Patch_Number: 1.0
+- Patch_Name: 1=PR-A:002 Bright Piano
+  Patch_Number: 2.0
+- Patch_Name: 2=PR-A:003 Classique
+  Patch_Number: 3.0
+- Patch_Name: 3=PR-A:004 Nice Piano
+  Patch_Number: 4.0
+- Patch_Name: 4=PR-A:005 Piano Thang
+  Patch_Number: 5.0
+- Patch_Name: 5=PR-A:006 Power Grand
+  Patch_Number: 6.0
+- Patch_Name: 6=PR-A:007 House Piano
+  Patch_Number: 7.0
+- Patch_Name: 7=PR-A:008 E.Grand
+  Patch_Number: 8.0
+- Patch_Name: 8=PR-A:009 MIDIed Grand
+  Patch_Number: 9.0
+- Patch_Name: 9=PR-A:010 Piano Blend
+  Patch_Number: 10.0
+- Patch_Name: 10=PR-A:011 West Coast
+  Patch_Number: 11.0
+- Patch_Name: 11=PR-A:012 PianoStrings
+  Patch_Number: 12.0
+- Patch_Name: 12=PR-A:013 Bs/Pno+Brs
+  Patch_Number: 13.0
+- Patch_Name: 13=PR-A:014 Waterhodes
+  Patch_Number: 14.0
+- Patch_Name: 14=PR-A:015 S.A.E.P.
+  Patch_Number: 15.0
+- Patch_Name: 15=PR-A:016 SA Rhodes 1
+  Patch_Number: 16.0
+- Patch_Name: 16=PR-A:017 SA Rhodes 2
+  Patch_Number: 17.0
+- Patch_Name: 17=PR-A:018 Stiky Rhodes
+  Patch_Number: 18.0
+- Patch_Name: 18=PR-A:019 Dig Rhodes
+  Patch_Number: 19.0
+- Patch_Name: 19=PR-A:020 Nylon EPiano
+  Patch_Number: 20.0
+- Patch_Name: 20=PR-A:021 Nylon Rhodes
+  Patch_Number: 21.0
+- Patch_Name: 21=PR-A:022 Rhodes Mix
+  Patch_Number: 22.0
+- Patch_Name: 22=PR-A:023 PsychoRhodes
+  Patch_Number: 23.0
+- Patch_Name: 23=PR-A:024 Tremo Rhodes
+  Patch_Number: 24.0
+- Patch_Name: 24=PR-A:025 MK-80 Rhodes
+  Patch_Number: 25.0
+- Patch_Name: 25=PR-A:026 MK-80 Phaser
+  Patch_Number: 26.0
+- Patch_Name: 26=PR-A:027 Delicate EP
+  Patch_Number: 27.0
+- Patch_Name: 27=PR-A:028 Octa Rhodes1
+  Patch_Number: 28.0
+- Patch_Name: 28=PR-A:029 Octa Rhodes2
+  Patch_Number: 29.0
+- Patch_Name: 29=PR-A:030 JV Rhodes+
+  Patch_Number: 30.0
+- Patch_Name: 30=PR-A:031 EP+Mod Pad
+  Patch_Number: 31.0
+- Patch_Name: 31=PR-A:032 Mr.Mellow
+  Patch_Number: 32.0
+- Patch_Name: 32=PR-A:033 Comp Clav
+  Patch_Number: 33.0
+- Patch_Name: 33=PR-A:034 Klavinet
+  Patch_Number: 34.0
+- Patch_Name: 34=PR-A:035 Winger Clav
+  Patch_Number: 35.0
+- Patch_Name: 35=PR-A:036 Phaze Clav 1
+  Patch_Number: 36.0
+- Patch_Name: 36=PR-A:037 Phaze Clav 2
+  Patch_Number: 37.0
+- Patch_Name: 37=PR-A:038 Phuzz Clav
+  Patch_Number: 38.0
+- Patch_Name: 38=PR-A:039 Chorus Clav
+  Patch_Number: 39.0
+- Patch_Name: 39=PR-A:040 Claviduck
+  Patch_Number: 40.0
+- Patch_Name: 40=PR-A:041 Velo-Rez Clv
+  Patch_Number: 41.0
+- Patch_Name: 41=PR-A:042 Clavicembalo
+  Patch_Number: 42.0
+- Patch_Name: 42=PR-A:043 Analog Clav1
+  Patch_Number: 43.0
+- Patch_Name: 43=PR-A:044 Analog Clav2
+  Patch_Number: 44.0
+- Patch_Name: 44=PR-A:045 Metal Clav
+  Patch_Number: 45.0
+- Patch_Name: 45=PR-A:046 Full Stops
+  Patch_Number: 46.0
+- Patch_Name: 46=PR-A:047 Ballad B
+  Patch_Number: 47.0
+- Patch_Name: 47=PR-A:048 Mellow Bars
+  Patch_Number: 48.0
+- Patch_Name: 48=PR-A:049 AugerMentive
+  Patch_Number: 49.0
+- Patch_Name: 49=PR-A:050 Perky B
+  Patch_Number: 50.0
+- Patch_Name: 50=PR-A:051 The Big Spin
+  Patch_Number: 51.0
+- Patch_Name: 51=PR-A:052 Gospel Spin
+  Patch_Number: 52.0
+- Patch_Name: 52=PR-A:053 Roller Spin
+  Patch_Number: 53.0
+- Patch_Name: 53=PR-A:054 Rocker Spin
+  Patch_Number: 54.0
+- Patch_Name: 54=PR-A:055 Tone Wh.Solo
+  Patch_Number: 55.0
+- Patch_Name: 55=PR-A:056 Purple Spin
+  Patch_Number: 56.0
+- Patch_Name: 56=PR-A:057 60's LeadORG
+  Patch_Number: 57.0
+- Patch_Name: 57=PR-A:058 Assalt Organ
+  Patch_Number: 58.0
+- Patch_Name: 58=PR-A:059 D-50 Organ
+  Patch_Number: 59.0
+- Patch_Name: 59=PR-A:060 Cathedral
+  Patch_Number: 60.0
+- Patch_Name: 60=PR-A:061 Church Pipes
+  Patch_Number: 61.0
+- Patch_Name: 61=PR-A:062 Poly Key
+  Patch_Number: 62.0
+- Patch_Name: 62=PR-A:063 Poly Saws
+  Patch_Number: 63.0
+- Patch_Name: 63=PR-A:064 Poly Pulse
+  Patch_Number: 64.0
+- Patch_Name: 64=PR-A:065 Dual Profs
+  Patch_Number: 65.0
+- Patch_Name: 65=PR-A:066 Saw Mass
+  Patch_Number: 66.0
+- Patch_Name: 66=PR-A:067 Poly Split
+  Patch_Number: 67.0
+- Patch_Name: 67=PR-A:068 Poly Brass
+  Patch_Number: 68.0
+- Patch_Name: 68=PR-A:069 Stackoid
+  Patch_Number: 69.0
+- Patch_Name: 69=PR-A:070 Poly Rock
+  Patch_Number: 70.0
+- Patch_Name: 70=PR-A:071 D-50 Stack
+  Patch_Number: 71.0
+- Patch_Name: 71=PR-A:072 Fantasia JV
+  Patch_Number: 72.0
+- Patch_Name: 72=PR-A:073 Jimmee Dee
+  Patch_Number: 73.0
+- Patch_Name: 73=PR-A:074 Heavenals
+  Patch_Number: 74.0
+- Patch_Name: 74=PR-A:075 Mallet Pad
+  Patch_Number: 75.0
+- Patch_Name: 75=PR-A:076 Huff N Stuff
+  Patch_Number: 76.0
+- Patch_Name: 76=PR-A:077 Puff 1080
+  Patch_Number: 77.0
+- Patch_Name: 77=PR-A:078 BellVox 1080
+  Patch_Number: 78.0
+- Patch_Name: 78=PR-A:079 Fantasy Vox
+  Patch_Number: 79.0
+- Patch_Name: 79=PR-A:080 Square Keys
+  Patch_Number: 80.0
+- Patch_Name: 80=PR-A:081 Childlike
+  Patch_Number: 81.0
+- Patch_Name: 81=PR-A:082 Music Box
+  Patch_Number: 82.0
+- Patch_Name: 82=PR-A:083 Toy Box
+  Patch_Number: 83.0
+- Patch_Name: 83=PR-A:084 Wave Bells
+  Patch_Number: 84.0
+- Patch_Name: 84=PR-A:085 Tria Bells
+  Patch_Number: 85.0
+- Patch_Name: 85=PR-A:086 Beauty Bells
+  Patch_Number: 86.0
+- Patch_Name: 86=PR-A:087 Music Bells
+  Patch_Number: 87.0
+- Patch_Name: 87=PR-A:088 Pretty Bells
+  Patch_Number: 88.0
+- Patch_Name: 88=PR-A:089 Pulse Key
+  Patch_Number: 89.0
+- Patch_Name: 89=PR-A:090 Wide Tubular
+  Patch_Number: 90.0
+- Patch_Name: 90=PR-A:091 Ambience Vibe
+  Patch_Number: 91.0
+- Patch_Name: 91=PR-A:092 Warm Vibes
+  Patch_Number: 92.0
+- Patch_Name: 92=PR-A:093 Dyna Marimbe
+  Patch_Number: 93.0
+- Patch_Name: 93=PR-A:094 Bass Marimba
+  Patch_Number: 94.0
+- Patch_Name: 94=PR-A:095 Nomad Perc
+  Patch_Number: 95.0
+- Patch_Name: 95=PR-A:096 Ethno Metals
+  Patch_Number: 96.0
+- Patch_Name: 96=PR-A:097 Islands Mlt
+  Patch_Number: 97.0
+- Patch_Name: 97=PR-A:098 Steelin Keys
+  Patch_Number: 98.0
+- Patch_Name: 98=PR-A:099 Steel Drums
+  Patch_Number: 99.0
+- Patch_Name: 99=PR-A:100 Voicey Pizz
+  Patch_Number: 100.0
+- Patch_Name: 100=PR-A:101 Sitar
+  Patch_Number: 101.0
+- Patch_Name: 101=PR-A:102 Drone Split
+  Patch_Number: 102.0
+- Patch_Name: 102=PR-A:103 Ethnopluck
+  Patch_Number: 103.0
+- Patch_Name: 103=PR-A:104 Jamisen
+  Patch_Number: 104.0
+- Patch_Name: 104=PR-A:105 Dulcimer
+  Patch_Number: 105.0
+- Patch_Name: 105=PR-A:106 East Melody
+  Patch_Number: 106.0
+- Patch_Name: 106=PR-A:107 Mandolin Trem
+  Patch_Number: 107.0
+- Patch_Name: 107=PR-A:108 Nylon Gtr
+  Patch_Number: 108.0
+- Patch_Name: 108=PR-A:109 Gtr Strings
+  Patch_Number: 109.0
+- Patch_Name: 109=PR-A:110 Steel Away
+  Patch_Number: 110.0
+- Patch_Name: 110=PR-A:111 Heavenly Gtr
+  Patch_Number: 111.0
+- Patch_Name: 111=PR-A:112 12str Gtr 1
+  Patch_Number: 112.0
+- Patch_Name: 112=PR-A:113 12str Gtr 2
+  Patch_Number: 113.0
+- Patch_Name: 113=PR-A:114 Jz Gtr Hall
+  Patch_Number: 114.0
+- Patch_Name: 114=PR-A:115 LetterFrmPat
+  Patch_Number: 115.0
+- Patch_Name: 115=PR-A:116 Jazz Scat
+  Patch_Number: 116.0
+- Patch_Name: 116=PR-A:117 Lounge Gig
+  Patch_Number: 117.0
+- Patch_Name: 117=PR-A:118 JC Strat
+  Patch_Number: 118.0
+- Patch_Name: 118=PR-A:119 Twin Strats
+  Patch_Number: 119.0
+- Patch_Name: 119=PR-A:120 JV Strat
+  Patch_Number: 120.0
+- Patch_Name: 120=PR-A:121 Syn Strat
+  Patch_Number: 121.0
+- Patch_Name: 121=PR-A:122 Rotary Gtr
+  Patch_Number: 122.0
+- Patch_Name: 122=PR-A:123 Muted Gtr
+  Patch_Number: 123.0
+- Patch_Name: 123=PR-A:124 SwitchOnMute
+  Patch_Number: 124.0
+- Patch_Name: 124=PR-A:125 Power Trip
+  Patch_Number: 125.0
+- Patch_Name: 125=PR-A:126 Crunch Split
+  Patch_Number: 126.0
+- Patch_Name: 126=PR-A:127 Rezodrive
+  Patch_Number: 127.0
+- Patch_Name: 127=PR-A:128 RockYurSocks
+  Patch_Number: 128.0
+- Patch_Name: 0=PR-B:001 Dist Gtr 1
+  Patch_Number: 1.0
+- Patch_Name: 1=PR-B:002 Dist Gtr 2
+  Patch_Number: 2.0
+- Patch_Name: 2=PR-B:003 R&R Chunk
+  Patch_Number: 3.0
+- Patch_Name: 3=PR-B:004 Phripphuzz
+  Patch_Number: 4.0
+- Patch_Name: 4=PR-B:005 Grungeroni
+  Patch_Number: 5.0
+- Patch_Name: 5=PR-B:006 Black Widow
+  Patch_Number: 6.0
+- Patch_Name: 6=PR-B:007 Velo-Wah Gtr
+  Patch_Number: 7.0
+- Patch_Name: 7=PR-B:008 Mod-Wah Gtr
+  Patch_Number: 8.0
+- Patch_Name: 8=PR-B:009 Pick Bass
+  Patch_Number: 9.0
+- Patch_Name: 9=PR-B:010 Hip Bass
+  Patch_Number: 10.0
+- Patch_Name: 10=PR-B:011 Perc.Bass
+  Patch_Number: 11.0
+- Patch_Name: 11=PR-B:012 Homey Bass
+  Patch_Number: 12.0
+- Patch_Name: 12=PR-B:013 Finger Bass
+  Patch_Number: 13.0
+- Patch_Name: 13=PR-B:014 Nylon Bass
+  Patch_Number: 14.0
+- Patch_Name: 14=PR-B:015 Ac.Upright
+  Patch_Number: 15.0
+- Patch_Name: 15=PR-B:016 Wet Fretls
+  Patch_Number: 16.0
+- Patch_Name: 16=PR-B:017 Fretls Dry
+  Patch_Number: 17.0
+- Patch_Name: 17=PR-B:018 Slap Bass 1
+  Patch_Number: 18.0
+- Patch_Name: 18=PR-B:019 Slap Bass 2
+  Patch_Number: 19.0
+- Patch_Name: 19=PR-B:020 Slap Bass 3
+  Patch_Number: 20.0
+- Patch_Name: 20=PR-B:021 Slap Bass 4
+  Patch_Number: 21.0
+- Patch_Name: 21=PR-B:022 4 Pole Bass
+  Patch_Number: 22.0
+- Patch_Name: 22=PR-B:023 Tick Bass
+  Patch_Number: 23.0
+- Patch_Name: 23=PR-B:024 House Bass
+  Patch_Number: 24.0
+- Patch_Name: 24=PR-B:025 Mondo Bass
+  Patch_Number: 25.0
+- Patch_Name: 25=PR-B:026 Clk AnalogBs
+  Patch_Number: 26.0
+- Patch_Name: 26=PR-B:027 Bass In Face
+  Patch_Number: 27.0
+- Patch_Name: 27=PR-B:028 101 Bass
+  Patch_Number: 28.0
+- Patch_Name: 28=PR-B:029 Noiz Bass
+  Patch_Number: 29.0
+- Patch_Name: 29=PR-B:030 Super Jup Bs
+  Patch_Number: 30.0
+- Patch_Name: 30=PR-B:031 Occitan Bass
+  Patch_Number: 31.0
+- Patch_Name: 31=PR-B:032 Hugo Bass
+  Patch_Number: 32.0
+- Patch_Name: 32=PR-B:033 Multi Bass
+  Patch_Number: 33.0
+- Patch_Name: 33=PR-B:034 Moist Bass
+  Patch_Number: 34.0
+- Patch_Name: 34=PR-B:035 BritelowBass
+  Patch_Number: 35.0
+- Patch_Name: 35=PR-B:036 Untamed Bass
+  Patch_Number: 36.0
+- Patch_Name: 36=PR-B:037 Rubber Bass
+  Patch_Number: 37.0
+- Patch_Name: 37=PR-B:038 Stereoww Bs
+  Patch_Number: 38.0
+- Patch_Name: 38=PR-B:039 Wonder Bass
+  Patch_Number: 39.0
+- Patch_Name: 39=PR-B:040 Deep Bass
+  Patch_Number: 40.0
+- Patch_Name: 40=PR-B:041 Super JX Bs
+  Patch_Number: 41.0
+- Patch_Name: 41=PR-B:042 W<RED>-Bass
+  Patch_Number: 42.0
+- Patch_Name: 42=PR-B:043 HI-Ring Bass
+  Patch_Number: 43.0
+- Patch_Name: 43=PR-B:044 Euro Bass
+  Patch_Number: 44.0
+- Patch_Name: 44=PR-B:045 SinusoidRave
+  Patch_Number: 45.0
+- Patch_Name: 45=PR-B:046 Alternative
+  Patch_Number: 46.0
+- Patch_Name: 46=PR-B:047 Acid Line
+  Patch_Number: 47.0
+- Patch_Name: 47=PR-B:048 Auto TB-303
+  Patch_Number: 48.0
+- Patch_Name: 48=PR-B:049 Hihat Tekno
+  Patch_Number: 49.0
+- Patch_Name: 49=PR-B:050 Velo Tekno 1
+  Patch_Number: 50.0
+- Patch_Name: 50=PR-B:051 Raggatronic
+  Patch_Number: 51.0
+- Patch_Name: 51=PR-B:052 Blade Racer
+  Patch_Number: 52.0
+- Patch_Name: 52=PR-B:053 S&H Pad
+  Patch_Number: 53.0
+- Patch_Name: 53=PR-B:054 Syncrosonix
+  Patch_Number: 54.0
+- Patch_Name: 54=PR-B:055 Fooled Again
+  Patch_Number: 55.0
+- Patch_Name: 55=PR-B:056 Alive
+  Patch_Number: 56.0
+- Patch_Name: 56=PR-B:057 Velo Tekno 2
+  Patch_Number: 57.0
+- Patch_Name: 57=PR-B:058 Rezoid
+  Patch_Number: 58.0
+- Patch_Name: 58=PR-B:059 Raverborg
+  Patch_Number: 59.0
+- Patch_Name: 59=PR-B:060 Blow Hit
+  Patch_Number: 60.0
+- Patch_Name: 60=PR-B:061 Hammer Bell
+  Patch_Number: 61.0
+- Patch_Name: 61=PR-B:062 Seq Mallet
+  Patch_Number: 62.0
+- Patch_Name: 62=PR-B:063 Intentions
+  Patch_Number: 63.0
+- Patch_Name: 63=PR-B:064 Pick It
+  Patch_Number: 64.0
+- Patch_Name: 64=PR-B:065 Analog Seq
+  Patch_Number: 65.0
+- Patch_Name: 65=PR-B:066 Impact Vox
+  Patch_Number: 66.0
+- Patch_Name: 66=PR-B:067 TeknoSoloVox
+  Patch_Number: 67.0
+- Patch_Name: 67=PR-B:068 X-Mod Man
+  Patch_Number: 68.0
+- Patch_Name: 68=PR-B:069 Paz<==>Zap
+  Patch_Number: 69.0
+- Patch_Name: 69=PR-B:070 4 Hits 4 You
+  Patch_Number: 70.0
+- Patch_Name: 70=PR-B:071 Impact
+  Patch_Number: 71.0
+- Patch_Name: 71=PR-B:072 Phase Hit
+  Patch_Number: 72.0
+- Patch_Name: 72=PR-B:073 Tekno Hit 1
+  Patch_Number: 73.0
+- Patch_Name: 73=PR-B:074 Tekno Hit 2
+  Patch_Number: 74.0
+- Patch_Name: 74=PR-B:075 Tekno Hit 3
+  Patch_Number: 75.0
+- Patch_Name: 75=PR-B:076 Reverse Hit
+  Patch_Number: 76.0
+- Patch_Name: 76=PR-B:077 SquareLead 1
+  Patch_Number: 77.0
+- Patch_Name: 77=PR-B:078 SquareLead 2
+  Patch_Number: 78.0
+- Patch_Name: 78=PR-B:079 You and Luck
+  Patch_Number: 79.0
+- Patch_Name: 79=PR-B:080 Belly Lead
+  Patch_Number: 80.0
+- Patch_Name: 80=PR-B:081 WhistlinAtom
+  Patch_Number: 81.0
+- Patch_Name: 81=PR-B:082 Edye Boost
+  Patch_Number: 82.0
+- Patch_Name: 82=PR-B:083 MG Solo
+  Patch_Number: 83.0
+- Patch_Name: 83=PR-B:084 FXM Saw Lead
+  Patch_Number: 84.0
+- Patch_Name: 84=PR-B:085 Sawteeth
+  Patch_Number: 85.0
+- Patch_Name: 85=PR-B:086 Smoothe
+  Patch_Number: 86.0
+- Patch_Name: 86=PR-B:087 MG Lead
+  Patch_Number: 87.0
+- Patch_Name: 87=PR-B:088 MG Interval
+  Patch_Number: 88.0
+- Patch_Name: 88=PR-B:089 Pulse Lead 1
+  Patch_Number: 89.0
+- Patch_Name: 89=PR-B:090 Pulse Lead 2
+  Patch_Number: 90.0
+- Patch_Name: 90=PR-B:091 Little Devil
+  Patch_Number: 91.0
+- Patch_Name: 91=PR-B:092 Loud SynLead
+  Patch_Number: 92.0
+- Patch_Name: 92=PR-B:093 Analog Lead
+  Patch_Number: 93.0
+- Patch_Name: 93=PR-B:094 5th Lead
+  Patch_Number: 94.0
+- Patch_Name: 94=PR-B:095 Flute
+  Patch_Number: 95.0
+- Patch_Name: 95=PR-B:096 Piccolo
+  Patch_Number: 96.0
+- Patch_Name: 96=PR-B:097 VOX Flute
+  Patch_Number: 97.0
+- Patch_Name: 97=PR-B:098 Air Lead
+  Patch_Number: 98.0
+- Patch_Name: 98=PR-B:099 Pan Pipes
+  Patch_Number: 99.0
+- Patch_Name: 99=PR-B:100 Airplaaane
+  Patch_Number: 100.0
+- Patch_Name: 100=PR-B:101 Taj Mahal
+  Patch_Number: 101.0
+- Patch_Name: 101=PR-B:102 Raya Shaku
+  Patch_Number: 102.0
+- Patch_Name: 102=PR-B:103 Oboe mf
+  Patch_Number: 103.0
+- Patch_Name: 103=PR-B:104 Oboe Express
+  Patch_Number: 104.0
+- Patch_Name: 104=PR-B:105 Clarinet mp
+  Patch_Number: 105.0
+- Patch_Name: 105=PR-B:106 ClariExpress
+  Patch_Number: 106.0
+- Patch_Name: 106=PR-B:107 Mitzva Split
+  Patch_Number: 107.0
+- Patch_Name: 107=PR-B:108 ChamberWinds
+  Patch_Number: 108.0
+- Patch_Name: 108=PR-B:109 ChamberWoods
+  Patch_Number: 109.0
+- Patch_Name: 109=PR-B:110 Film Orch
+  Patch_Number: 110.0
+- Patch_Name: 110=PR-B:111 Sop.Sax mf
+  Patch_Number: 111.0
+- Patch_Name: 111=PR-B:112 Alto Sax
+  Patch_Number: 112.0
+- Patch_Name: 112=PR-B:113 AltoLead Sax
+  Patch_Number: 113.0
+- Patch_Name: 113=PR-B:114 Tenor Sax
+  Patch_Number: 114.0
+- Patch_Name: 114=PR-B:115 Baritone Sax
+  Patch_Number: 115.0
+- Patch_Name: 115=PR-B:116 Take A Tenor
+  Patch_Number: 116.0
+- Patch_Name: 116=PR-B:117 Sax Section
+  Patch_Number: 117.0
+- Patch_Name: 117=PR-B:118 Bigband Sax
+  Patch_Number: 118.0
+- Patch_Name: 118=PR-B:119 Harmonica
+  Patch_Number: 119.0
+- Patch_Name: 119=PR-B:120 Harmo Blues
+  Patch_Number: 120.0
+- Patch_Name: 120=PR-B:121 BluesHarp
+  Patch_Number: 121.0
+- Patch_Name: 121=PR-B:122 Hillbillys
+  Patch_Number: 122.0
+- Patch_Name: 122=PR-B:123 French Bags
+  Patch_Number: 123.0
+- Patch_Name: 123=PR-B:124 Majestic Tpt
+  Patch_Number: 124.0
+- Patch_Name: 124=PR-B:125 Voluntare
+  Patch_Number: 125.0
+- Patch_Name: 125=PR-B:126 2Trumpets
+  Patch_Number: 126.0
+- Patch_Name: 126=PR-B:127 Tpt Sect
+  Patch_Number: 127.0
+- Patch_Name: 127=PR-B:128 Mute TP mod
+  Patch_Number: 128.0
+- Patch_Name: 0=PR-C:001 Harmon Mute
+  Patch_Number: 1.0
+- Patch_Name: 1=PR-C:002 Tp&Sax Sect
+  Patch_Number: 2.0
+- Patch_Name: 2=PR-C:003 Sax+Tp+Tb
+  Patch_Number: 3.0
+- Patch_Name: 3=PR-C:004 Brass Sect
+  Patch_Number: 4.0
+- Patch_Name: 4=PR-C:005 Trombone
+  Patch_Number: 5.0
+- Patch_Name: 5=PR-C:006 Hybrid Bones
+  Patch_Number: 6.0
+- Patch_Name: 6=PR-C:007 Noble Horns
+  Patch_Number: 7.0
+- Patch_Name: 7=PR-C:008 Massed Horns
+  Patch_Number: 8.0
+- Patch_Name: 8=PR-C:009 Horn Swell
+  Patch_Number: 9.0
+- Patch_Name: 9=PR-C:010 Brass It!
+  Patch_Number: 10.0
+- Patch_Name: 10=PR-C:011 Brass Attack
+  Patch_Number: 11.0
+- Patch_Name: 11=PR-C:012 Archimede
+  Patch_Number: 12.0
+- Patch_Name: 12=PR-C:013 Rugby Horn
+  Patch_Number: 13.0
+- Patch_Name: 13=PR-C:014 MKS-80 Brass
+  Patch_Number: 14.0
+- Patch_Name: 14=PR-C:015 True ANALOG
+  Patch_Number: 15.0
+- Patch_Name: 15=PR-C:016 Dark Vox
+  Patch_Number: 16.0
+- Patch_Name: 16=PR-C:017 Random Vowels
+  Patch_Number: 17.0
+- Patch_Name: 17=PR-C:018 Angels Sing
+  Patch_Number: 18.0
+- Patch_Name: 18=PR-C:019 Pvox Oooze
+  Patch_Number: 19.0
+- Patch_Name: 19=PR-C:020 Longing...
+  Patch_Number: 20.0
+- Patch_Name: 20=PR-C:021 Arasian Morn
+  Patch_Number: 21.0
+- Patch_Name: 21=PR-C:022 Beauty Vox
+  Patch_Number: 22.0
+- Patch_Name: 22=PR-C:023 Mary-AnneVox
+  Patch_Number: 23.0
+- Patch_Name: 23=PR-C:024 Belltree Vox
+  Patch_Number: 24.0
+- Patch_Name: 24=PR-C:025 Vox Panner
+  Patch_Number: 25.0
+- Patch_Name: 25=PR-C:026 Spaced Voxx
+  Patch_Number: 26.0
+- Patch_Name: 26=PR-C:027 Glass Voices
+  Patch_Number: 27.0
+- Patch_Name: 27=PR-C:028 Tubular Vox
+  Patch_Number: 28.0
+- Patch_Name: 28=PR-C:029 Velo Voxx
+  Patch_Number: 29.0
+- Patch_Name: 29=PR-C:030 Wavox
+  Patch_Number: 30.0
+- Patch_Name: 30=PR-C:031 Doos
+  Patch_Number: 31.0
+- Patch_Name: 31=PR-C:032 Synvox Comps
+  Patch_Number: 32.0
+- Patch_Name: 32=PR-C:033 Vocal Oohz
+  Patch_Number: 33.0
+- Patch_Name: 33=PR-C:034 LFO Vox
+  Patch_Number: 34.0
+- Patch_Name: 34=PR-C:035 St. Strings
+  Patch_Number: 35.0
+- Patch_Name: 35=PR-C:036 Warm Strings
+  Patch_Number: 36.0
+- Patch_Name: 36=PR-C:037 Somber Str
+  Patch_Number: 37.0
+- Patch_Name: 37=PR-C:038 Marcato
+  Patch_Number: 38.0
+- Patch_Name: 38=PR-C:039 Bright Str
+  Patch_Number: 39.0
+- Patch_Name: 39=PR-C:040 String Ens
+  Patch_Number: 40.0
+- Patch_Name: 40=PR-C:041 TremoloStrng
+  Patch_Number: 41.0
+- Patch_Name: 41=PR-C:042 Chambers
+  Patch_Number: 42.0
+- Patch_Name: 42=PR-C:043 ViolinCello
+  Patch_Number: 43.0
+- Patch_Name: 43=PR-C:044 Symphonique
+  Patch_Number: 44.0
+- Patch_Name: 44=PR-C:045 Film Octaves
+  Patch_Number: 45.0
+- Patch_Name: 45=PR-C:046 Film Layers
+  Patch_Number: 46.0
+- Patch_Name: 46=PR-C:047 Bass Pizz
+  Patch_Number: 47.0
+- Patch_Name: 47=PR-C:048 Real Pizz
+  Patch_Number: 48.0
+- Patch_Name: 48=PR-C:049 Harp On It
+  Patch_Number: 49.0
+- Patch_Name: 49=PR-C:050 Harp
+  Patch_Number: 50.0
+- Patch_Name: 50=PR-C:051 JP-8 Str 1
+  Patch_Number: 51.0
+- Patch_Name: 51=PR-C:052 JP-8 Str 2
+  Patch_Number: 52.0
+- Patch_Name: 52=PR-C:053 E-Motion Pad
+  Patch_Number: 53.0
+- Patch_Name: 53=PR-C:054 JP-8 Str 3
+  Patch_Number: 54.0
+- Patch_Name: 54=PR-C:055 Vintage Orch
+  Patch_Number: 55.0
+- Patch_Name: 55=PR-C:056 JUNO Strings
+  Patch_Number: 56.0
+- Patch_Name: 56=PR-C:057 Gigantalog
+  Patch_Number: 57.0
+- Patch_Name: 57=PR-C:058 PWM Strings
+  Patch_Number: 58.0
+- Patch_Name: 58=PR-C:059 Warmth
+  Patch_Number: 59.0
+- Patch_Name: 59=PR-C:060 ORBit Pad
+  Patch_Number: 60.0
+- Patch_Name: 60=PR-C:061 Deep Strings
+  Patch_Number: 61.0
+- Patch_Name: 61=PR-C:062 Pulsify
+  Patch_Number: 62.0
+- Patch_Name: 62=PR-C:063 Pulse Pad
+  Patch_Number: 63.0
+- Patch_Name: 63=PR-C:064 Greek Power
+  Patch_Number: 64.0
+- Patch_Name: 64=PR-C:065 Harmonicum
+  Patch_Number: 65.0
+- Patch_Name: 65=PR-C:066 D-50 Heaven
+  Patch_Number: 66.0
+- Patch_Name: 66=PR-C:067 Afro Horns
+  Patch_Number: 67.0
+- Patch_Name: 67=PR-C:068 Pop Pad
+  Patch_Number: 68.0
+- Patch_Name: 68=PR-C:069 Dreamesque
+  Patch_Number: 69.0
+- Patch_Name: 69=PR-C:070 Square Pad
+  Patch_Number: 70.0
+- Patch_Name: 70=PR-C:071 JP-8 Hollow
+  Patch_Number: 71.0
+- Patch_Name: 71=PR-C:072 JP-8Haunting
+  Patch_Number: 72.0
+- Patch_Name: 72=PR-C:073 Heirborne
+  Patch_Number: 73.0
+- Patch_Name: 73=PR-C:074 Hush Pad
+  Patch_Number: 74.0
+- Patch_Name: 74=PR-C:075 Jet Pad 1
+  Patch_Number: 75.0
+- Patch_Name: 75=PR-C:076 Jet Pad 2
+  Patch_Number: 76.0
+- Patch_Name: 76=PR-C:077 Phaze Pad
+  Patch_Number: 77.0
+- Patch_Name: 77=PR-C:078 Phaze Str
+  Patch_Number: 78.0
+- Patch_Name: 78=PR-C:079 Jet Str Ens
+  Patch_Number: 79.0
+- Patch_Name: 79=PR-C:080 Pivotal Pad
+  Patch_Number: 80.0
+- Patch_Name: 80=PR-C:081 3D Flanged
+  Patch_Number: 81.0
+- Patch_Name: 81=PR-C:082 Fantawine
+  Patch_Number: 82.0
+- Patch_Name: 82=PR-C:083 Glassy Pad
+  Patch_Number: 83.0
+- Patch_Name: 83=PR-C:084 Moving Glass
+  Patch_Number: 84.0
+- Patch_Name: 84=PR-C:085 Glasswaves
+  Patch_Number: 85.0
+- Patch_Name: 85=PR-C:086 Shiny Pad
+  Patch_Number: 86.0
+- Patch_Name: 86=PR-C:087 ShiftedGlass
+  Patch_Number: 87.0
+- Patch_Name: 87=PR-C:088 Chime Pad
+  Patch_Number: 88.0
+- Patch_Name: 88=PR-C:089 Spin Pad
+  Patch_Number: 89.0
+- Patch_Name: 89=PR-C:090 Rotary Pad
+  Patch_Number: 90.0
+- Patch_Name: 90=PR-C:091 Dawn 2 Dusk
+  Patch_Number: 91.0
+- Patch_Name: 91=PR-C:092 Aurora
+  Patch_Number: 92.0
+- Patch_Name: 92=PR-C:093 Strobe Mode
+  Patch_Number: 93.0
+- Patch_Name: 93=PR-C:094 Albion
+  Patch_Number: 94.0
+- Patch_Name: 94=PR-C:095 Running Pad
+  Patch_Number: 95.0
+- Patch_Name: 95=PR-C:096 Stepped Pad
+  Patch_Number: 96.0
+- Patch_Name: 96=PR-C:097 Random Pad
+  Patch_Number: 97.0
+- Patch_Name: 97=PR-C:098 SoundtrkDANC
+  Patch_Number: 98.0
+- Patch_Name: 98=PR-C:099 Flying Waltz
+  Patch_Number: 99.0
+- Patch_Name: 99=PR-C:100 Vanishing
+  Patch_Number: 100.0
+- Patch_Name: 100=PR-C:101 5th Sweep
+  Patch_Number: 101.0
+- Patch_Name: 101=PR-C:102 Phazweep
+  Patch_Number: 102.0
+- Patch_Name: 102=PR-C:103 Big BPF
+  Patch_Number: 103.0
+- Patch_Name: 103=PR-C:104 MG Sweep
+  Patch_Number: 104.0
+- Patch_Name: 104=PR-C:105 CeremonyTimp
+  Patch_Number: 105.0
+- Patch_Name: 105=PR-C:106 Dyno Toms
+  Patch_Number: 106.0
+- Patch_Name: 106=PR-C:107 Sands ofTime
+  Patch_Number: 107.0
+- Patch_Name: 107=PR-C:108 Inertia
+  Patch_Number: 108.0
+- Patch_Name: 108=PR-C:109 Vektogram
+  Patch_Number: 109.0
+- Patch_Name: 109=PR-C:110 Crash Pad
+  Patch_Number: 110.0
+- Patch_Name: 110=PR-C:111 Feedback VOX
+  Patch_Number: 111.0
+- Patch_Name: 111=PR-C:112 Cascade
+  Patch_Number: 112.0
+- Patch_Name: 112=PR-C:113 Shattered
+  Patch_Number: 113.0
+- Patch_Name: 113=PR-C:114 NextFrontier
+  Patch_Number: 114.0
+- Patch_Name: 114=PR-C:115 Pure Tibet
+  Patch_Number: 115.0
+- Patch_Name: 115=PR-C:116 Chime Wash
+  Patch_Number: 116.0
+- Patch_Name: 116=PR-C:117 Night Shade
+  Patch_Number: 117.0
+- Patch_Name: 117=PR-C:118 Tortured
+  Patch_Number: 118.0
+- Patch_Name: 118=PR-C:119 Dissimilate
+  Patch_Number: 119.0
+- Patch_Name: 119=PR-C:120 Dunes
+  Patch_Number: 120.0
+- Patch_Name: 120=PR-C:121 Ocean Floor
+  Patch_Number: 121.0
+- Patch_Name: 121=PR-C:122 Cyber Space
+  Patch_Number: 122.0
+- Patch_Name: 122=PR-C:123 Biosphere
+  Patch_Number: 123.0
+- Patch_Name: 123=PR-C:124 Variable Run
+  Patch_Number: 124.0
+- Patch_Name: 124=PR-C:125 Ice Hall
+  Patch_Number: 125.0
+- Patch_Name: 125=PR-C:126 ComputerRoom
+  Patch_Number: 126.0
+- Patch_Name: 126=PR-C:127 Inverted
+  Patch_Number: 127.0
+- Patch_Name: 127=PR-C:128 Terminate
+  Patch_Number: 128.0
+- Patch_Name: 0=GM:001 Piano 1
+  Patch_Number: 1.0
+- Patch_Name: 1=GM:002 Piano 2
+  Patch_Number: 2.0
+- Patch_Name: 2=GM:003 Piano 3
+  Patch_Number: 3.0
+- Patch_Name: 3=GM:004 Honky-tonk
+  Patch_Number: 4.0
+- Patch_Name: 4=GM:005 E.Piano 1
+  Patch_Number: 5.0
+- Patch_Name: 5=GM:006 E.Piano 2
+  Patch_Number: 6.0
+- Patch_Name: 6=GM:007 Harpsichord
+  Patch_Number: 7.0
+- Patch_Name: 7=GM:008 Clav.
+  Patch_Number: 8.0
+- Patch_Name: 8=GM:009 Celesta
+  Patch_Number: 9.0
+- Patch_Name: 9=GM:010 Glockenspiel
+  Patch_Number: 10.0
+- Patch_Name: 10=GM:011 Music Box
+  Patch_Number: 11.0
+- Patch_Name: 11=GM:012 Vibraphone
+  Patch_Number: 12.0
+- Patch_Name: 12=GM:013 Marimba
+  Patch_Number: 13.0
+- Patch_Name: 13=GM:014 Xylophone
+  Patch_Number: 14.0
+- Patch_Name: 14=GM:015 Tubular-bell
+  Patch_Number: 15.0
+- Patch_Name: 15=GM:016 Santur
+  Patch_Number: 16.0
+- Patch_Name: 16=GM:017 Organ 1
+  Patch_Number: 17.0
+- Patch_Name: 17=GM:018 Organ 2
+  Patch_Number: 18.0
+- Patch_Name: 18=GM:019 Organ 3
+  Patch_Number: 19.0
+- Patch_Name: 19=GM:020 Church Org.1
+  Patch_Number: 20.0
+- Patch_Name: 20=GM:021 Reed Organ
+  Patch_Number: 21.0
+- Patch_Name: 21=GM:022 Accordion Fr
+  Patch_Number: 22.0
+- Patch_Name: 22=GM:023 Harmonica
+  Patch_Number: 23.0
+- Patch_Name: 23=GM:024 Bandneon
+  Patch_Number: 24.0
+- Patch_Name: 24=GM:025 Nylon-str.Gt
+  Patch_Number: 25.0
+- Patch_Name: 25=GM:026 Steel-str.Gt
+  Patch_Number: 26.0
+- Patch_Name: 26=GM:027 Jazz Gt.
+  Patch_Number: 27.0
+- Patch_Name: 27=GM:028 Clean Gt.
+  Patch_Number: 28.0
+- Patch_Name: 28=GM:029 Muted Gt.
+  Patch_Number: 29.0
+- Patch_Name: 29=GM:030 Overdrive Gt
+  Patch_Number: 30.0
+- Patch_Name: 30=GM:031 DistortionGt
+  Patch_Number: 31.0
+- Patch_Name: 31=GM:032 Gt.Harmonics
+  Patch_Number: 32.0
+- Patch_Name: 32=GM:033 Acoustic Bs.
+  Patch_Number: 33.0
+- Patch_Name: 33=GM:034 Fingered Bs.
+  Patch_Number: 34.0
+- Patch_Name: 34=GM:035 Picked Bs.
+  Patch_Number: 35.0
+- Patch_Name: 35=GM:036 Fretless Bs.
+  Patch_Number: 36.0
+- Patch_Name: 36=GM:037 Slap Bass 1
+  Patch_Number: 37.0
+- Patch_Name: 37=GM:038 Slap Bass 2
+  Patch_Number: 38.0
+- Patch_Name: 38=GM:039 Synth Bass 1
+  Patch_Number: 39.0
+- Patch_Name: 39=GM:040 Synth Bass 2
+  Patch_Number: 40.0
+- Patch_Name: 40=GM:041 Violin
+  Patch_Number: 41.0
+- Patch_Name: 41=GM:042 Viola
+  Patch_Number: 42.0
+- Patch_Name: 42=GM:043 Cello
+  Patch_Number: 43.0
+- Patch_Name: 43=GM:044 Contrabass
+  Patch_Number: 44.0
+- Patch_Name: 44=GM:045 Tremolo Str
+  Patch_Number: 45.0
+- Patch_Name: 45=GM:046 PizzacatoStr
+  Patch_Number: 46.0
+- Patch_Name: 46=GM:047 Harp
+  Patch_Number: 47.0
+- Patch_Name: 47=GM:048 Timpani
+  Patch_Number: 48.0
+- Patch_Name: 48=GM:049 Strings
+  Patch_Number: 49.0
+- Patch_Name: 49=GM:050 Slow Strings
+  Patch_Number: 50.0
+- Patch_Name: 50=GM:051 Syn.Strings1
+  Patch_Number: 51.0
+- Patch_Name: 51=GM:052 Syn.Strings 2
+  Patch_Number: 52.0
+- Patch_Name: 52=GM:053 Choir Aahs
+  Patch_Number: 53.0
+- Patch_Name: 53=GM:054 Voice Oohs
+  Patch_Number: 54.0
+- Patch_Name: 54=GM:055 Syn Vox
+  Patch_Number: 55.0
+- Patch_Name: 55=GM:056 OrchestraHit
+  Patch_Number: 56.0
+- Patch_Name: 56=GM:057 Trumpet
+  Patch_Number: 57.0
+- Patch_Name: 57=GM:058 Trombone
+  Patch_Number: 58.0
+- Patch_Name: 58=GM:059 Tuba
+  Patch_Number: 59.0
+- Patch_Name: 59=GM:060 MutedTrumpet
+  Patch_Number: 60.0
+- Patch_Name: 60=GM:061 French Horn
+  Patch_Number: 61.0
+- Patch_Name: 61=GM:062 Brass 1
+  Patch_Number: 62.0
+- Patch_Name: 62=GM:063 Synth Brass1
+  Patch_Number: 63.0
+- Patch_Name: 63=GM:064 Synth Brass2
+  Patch_Number: 64.0
+- Patch_Name: 64=GM:065 Soprano Sax
+  Patch_Number: 65.0
+- Patch_Name: 65=GM:066 Alto Sax
+  Patch_Number: 66.0
+- Patch_Name: 66=GM:067 Tenor Sax
+  Patch_Number: 67.0
+- Patch_Name: 67=GM:068 Baritone Sax
+  Patch_Number: 68.0
+- Patch_Name: 68=GM:069 Oboe
+  Patch_Number: 69.0
+- Patch_Name: 69=GM:070 English Horn
+  Patch_Number: 70.0
+- Patch_Name: 70=GM:071 Bassoon
+  Patch_Number: 71.0
+- Patch_Name: 71=GM:072 Clarinet
+  Patch_Number: 72.0
+- Patch_Name: 72=GM:073 Piccolo
+  Patch_Number: 73.0
+- Patch_Name: 73=GM:074 Flute
+  Patch_Number: 74.0
+- Patch_Name: 74=GM:075 Recorder
+  Patch_Number: 75.0
+- Patch_Name: 75=GM:076 Pan Flute
+  Patch_Number: 76.0
+- Patch_Name: 76=GM:077 Bottle Blow
+  Patch_Number: 77.0
+- Patch_Name: 77=GM:078 Shakuhachi
+  Patch_Number: 78.0
+- Patch_Name: 78=GM:079 Whistle
+  Patch_Number: 79.0
+- Patch_Name: 79=GM:080 Ocarina
+  Patch_Number: 80.0
+- Patch_Name: 80=GM:081 Square Wave
+  Patch_Number: 81.0
+- Patch_Name: 81=GM:082 Saw Wave
+  Patch_Number: 82.0
+- Patch_Name: 82=GM:083 Syn.Calliope
+  Patch_Number: 83.0
+- Patch_Name: 83=GM:084 Chiffer Lead
+  Patch_Number: 84.0
+- Patch_Name: 84=GM:085 Charang
+  Patch_Number: 85.0
+- Patch_Name: 85=GM:086 Solo Vox
+  Patch_Number: 86.0
+- Patch_Name: 86=GM:087 5th Saw Wave
+  Patch_Number: 87.0
+- Patch_Name: 87=GM:088 Bass & Lead
+  Patch_Number: 88.0
+- Patch_Name: 88=GM:089 Fantasia
+  Patch_Number: 89.0
+- Patch_Name: 89=GM:090 Warm Pad
+  Patch_Number: 90.0
+- Patch_Name: 90=GM:091 Polysynth
+  Patch_Number: 91.0
+- Patch_Name: 91=GM:092 Space Voice
+  Patch_Number: 92.0
+- Patch_Name: 92=GM:093 Bowed Glass
+  Patch_Number: 93.0
+- Patch_Name: 93=GM:094 Metal Pad
+  Patch_Number: 94.0
+- Patch_Name: 94=GM:095 Halo Pad
+  Patch_Number: 95.0
+- Patch_Name: 95=GM:096 Sweep Pad
+  Patch_Number: 96.0
+- Patch_Name: 96=GM:097 Ice Rain
+  Patch_Number: 97.0
+- Patch_Name: 97=GM:098 Soundtrack
+  Patch_Number: 98.0
+- Patch_Name: 98=GM:099 Crystal
+  Patch_Number: 99.0
+- Patch_Name: 99=GM:100 Atmosphere
+  Patch_Number: 100.0
+- Patch_Name: 100=GM:101 Brightness
+  Patch_Number: 101.0
+- Patch_Name: 101=GM:102 Goblins
+  Patch_Number: 102.0
+- Patch_Name: 102=GM:103 Echo Drops
+  Patch_Number: 103.0
+- Patch_Name: 103=GM:104 Star Theme
+  Patch_Number: 104.0
+- Patch_Name: 104=GM:105 Sitar
+  Patch_Number: 105.0
+- Patch_Name: 105=GM:106 Banjo
+  Patch_Number: 106.0
+- Patch_Name: 106=GM:107 Shamisen
+  Patch_Number: 107.0
+- Patch_Name: 107=GM:108 Koto
+  Patch_Number: 108.0
+- Patch_Name: 108=GM:109 Kalimba
+  Patch_Number: 109.0
+- Patch_Name: 109=GM:110 Bagpipe
+  Patch_Number: 110.0
+- Patch_Name: 110=GM:111 Fiddle
+  Patch_Number: 111.0
+- Patch_Name: 111=GM:112 Shanai
+  Patch_Number: 112.0
+- Patch_Name: 112=GM:113 Tinkle Bell
+  Patch_Number: 113.0
+- Patch_Name: 113=GM:114 Agogo
+  Patch_Number: 114.0
+- Patch_Name: 114=GM:115 Steel Drums
+  Patch_Number: 115.0
+- Patch_Name: 115=GM:116 Woodblock
+  Patch_Number: 116.0
+- Patch_Name: 116=GM:117 Taiko
+  Patch_Number: 117.0
+- Patch_Name: 117=GM:118 Melo. Tom 1
+  Patch_Number: 118.0
+- Patch_Name: 118=GM:119 Synth Drum
+  Patch_Number: 119.0
+- Patch_Name: 119=GM:120 Reverse Cym
+  Patch_Number: 120.0
+- Patch_Name: 120=GM:121 Gt.FretNoise
+  Patch_Number: 121.0
+- Patch_Name: 121=GM:122 Breath Noise
+  Patch_Number: 122.0
+- Patch_Name: 122=GM:123 Seashore
+  Patch_Number: 123.0
+- Patch_Name: 123=GM:124 Bird
+  Patch_Number: 124.0
+- Patch_Name: 124=GM:125 Telephone 1
+  Patch_Number: 125.0
+- Patch_Name: 125=GM:126 Helicopter
+  Patch_Number: 126.0
+- Patch_Name: 126=GM:127 Applause
+  Patch_Number: 127.0
+- Patch_Name: 127=GM:128 Gun shot
+  Patch_Number: 128.0
+- Patch_Name: 0=USER:01 Strobe Pad 1
+  Patch_Number: 1.0
+- Patch_Name: 1=USER:02 HardRock Uni
+  Patch_Number: 2.0
+- Patch_Name: 2=USER:03 Aggressive
+  Patch_Number: 3.0
+- Patch_Name: 3=USER:04 Opening Orch
+  Patch_Number: 4.0
+- Patch_Name: 4=USER:05 Cyber Sweep
+  Patch_Number: 5.0
+- Patch_Name: 5=USER:06 TempleOf2080
+  Patch_Number: 6.0
+- Patch_Name: 6=USER:07 Humming Pno
+  Patch_Number: 7.0
+- Patch_Name: 7=USER:08 Horror Movie
+  Patch_Number: 8.0
+- Patch_Name: 8=USER:09 Tekno Loop 1
+  Patch_Number: 9.0
+- Patch_Name: 9=USER:10 FarEast Stak
+  Patch_Number: 10.0
+- Patch_Name: 10=USER:11 Progresso
+  Patch_Number: 11.0
+- Patch_Name: 11=USER:12 SH Split
+  Patch_Number: 12.0
+- Patch_Name: 12=USER:13 Fr.Horn Sect
+  Patch_Number: 13.0
+- Patch_Name: 13=USER:14 Sweep Pad
+  Patch_Number: 14.0
+- Patch_Name: 14=USER:15 Reso Clav
+  Patch_Number: 15.0
+- Patch_Name: 15=USER:16 LateAutumnSP
+  Patch_Number: 16.0
+- Patch_Name: 16=USER:17 Orchestral
+  Patch_Number: 17.0
+- Patch_Name: 17=USER:18 Rave Split
+  Patch_Number: 18.0
+- Patch_Name: 18=USER:19 Flying Jazz
+  Patch_Number: 19.0
+- Patch_Name: 19=USER:20 CeremonialFX
+  Patch_Number: 20.0
+- Patch_Name: 20=USER:21 AcPiano+Pad
+  Patch_Number: 21.0
+- Patch_Name: 21=USER:22 AcPiano+Pad2
+  Patch_Number: 22.0
+- Patch_Name: 22=USER:23 EchoPianoStk
+  Patch_Number: 23.0
+- Patch_Name: 23=USER:24 Pop Ballad
+  Patch_Number: 24.0
+- Patch_Name: 24=USER:25 E.Pno Split
+  Patch_Number: 25.0
+- Patch_Name: 25=USER:26 2080 Fantasy
+  Patch_Number: 26.0
+- Patch_Name: 26=USER:27 FX Bell Pad
+  Patch_Number: 27.0
+- Patch_Name: 27=USER:28 Chime FX
+  Patch_Number: 28.0
+- Patch_Name: 28=USER:29 Multi Sax
+  Patch_Number: 29.0
+- Patch_Name: 29=USER:30 Big Band
+  Patch_Number: 30.0
+- Patch_Name: 30=USER:31 Pizz Brass
+  Patch_Number: 31.0
+- Patch_Name: 31=USER:32 Step Brass
+  Patch_Number: 32.0
+- Patch_Name: '[Roland JV-1080 Perform PR-A]'
+  Patch_Number: 34.0
+- Patch_Name: 0=PR-A:01 Seq:Template
+  Patch_Number: 35.0
+- Patch_Name: 1=PR-A:02 Seq:Pop
+  Patch_Number: 36.0
+- Patch_Name: 2=PR-A:03 Seq:LABallad
+  Patch_Number: 37.0
+- Patch_Name: 3=PR-A:04 Seq:Fusion
+  Patch_Number: 38.0
+- Patch_Name: 4=PR-A:05 Seq:FunkRock
+  Patch_Number: 39.0
+- Patch_Name: 5=PR-A:06 Seq:HardRock
+  Patch_Number: 40.0
+- Patch_Name: 6=PR-A:07 Seq:H.Metal
+  Patch_Number: 41.0
+- Patch_Name: 7=PR-A:08 Seq:Blues
+  Patch_Number: 42.0
+- Patch_Name: 8=PR-A:09 Seq:Cont.Jz
+  Patch_Number: 43.0
+- Patch_Name: 9=PR-A:10 Seq:Ac.Jazz
+  Patch_Number: 44.0
+- Patch_Name: 10=PR-A:11 Seq:Country
+  Patch_Number: 45.0
+- Patch_Name: 11=PR-A:12 Seq:Folk
+  Patch_Number: 46.0
+- Patch_Name: 12=PR-A:13 Seq:Dixie
+  Patch_Number: 47.0
+- Patch_Name: 13=PR-A:14 Seq:BigBand
+  Patch_Number: 48.0
+- Patch_Name: 14=PR-A:15 Seq:Latin
+  Patch_Number: 49.0
+- Patch_Name: 15=PR-A:16 Seq:Africa
+  Patch_Number: 50.0
+- Patch_Name: 16=PR-A:17 Seq:World
+  Patch_Number: 51.0
+- Patch_Name: 17=PR-A:18 Seq:Zydeco
+  Patch_Number: 52.0
+- Patch_Name: 18=PR-A:19 Seq:60's
+  Patch_Number: 53.0
+- Patch_Name: 19=PR-A:20 Seq:Gospel
+  Patch_Number: 54.0
+- Patch_Name: 20=PR-A:21 Seq:PopDance
+  Patch_Number: 55.0
+- Patch_Name: 21=PR-A:22 Seq:TeknoPop
+  Patch_Number: 56.0
+- Patch_Name: 22=PR-A:23 Seq:House
+  Patch_Number: 57.0
+- Patch_Name: 23=PR-A:24 Seq:Hip Hop
+  Patch_Number: 58.0
+- Patch_Name: 24=PR-A:25 Seq:HardCore
+  Patch_Number: 59.0
+- Patch_Name: 25=PR-A:26 Seq:Acid
+  Patch_Number: 60.0
+- Patch_Name: 26=PR-A:27 Seq:Ambient
+  Patch_Number: 61.0
+- Patch_Name: 27=PR-A:28 Seq:New Age
+  Patch_Number: 62.0
+- Patch_Name: 28=PR-A:29 Seq:Orch
+  Patch_Number: 63.0
+- Patch_Name: 29=PR-A:30 Seq:Film
+  Patch_Number: 64.0
+- Patch_Name: 30=PR-A:31 Seq:Chamber
+  Patch_Number: 65.0
+- Patch_Name: 31=PR-A:32 Seq:Baroque
+  Patch_Number: 66.0
+- Patch_Name: '[Roland JV-1080 Perform PR-B]'
+  Patch_Number: 1.0
+- Patch_Name: 0=PR-B:01 Dulcimar&Gtr
+  Patch_Number: 2.0
+- Patch_Name: 1=PR-B:02 DulcitarStk
+  Patch_Number: 3.0
+- Patch_Name: 2=PR-B:03 Tekno Loop 2
+  Patch_Number: 4.0
+- Patch_Name: 3=PR-B:04 Rave Attack
+  Patch_Number: 5.0
+- Patch_Name: 4=PR-B:05 SpaceCarrier
+  Patch_Number: 6.0
+- Patch_Name: 5=PR-B:06 Terminator
+  Patch_Number: 7.0
+- Patch_Name: 6=PR-B:07 Symphony JV
+  Patch_Number: 8.0
+- Patch_Name: 7=PR-B:08 Nebular Vox
+  Patch_Number: 9.0
+- Patch_Name: 8=PR-B:09 Humming Vox
+  Patch_Number: 10.0
+- Patch_Name: 9=PR-B:10 Cosmic Dawn
+  Patch_Number: 11.0
+- Patch_Name: 10=PR-B:11 Labyrinth
+  Patch_Number: 12.0
+- Patch_Name: 11=PR-B:12 Sweeper
+  Patch_Number: 13.0
+- Patch_Name: 12=PR-B:13 Stack Pad
+  Patch_Number: 14.0
+- Patch_Name: 13=PR-B:14 Strobe Pad 2
+  Patch_Number: 15.0
+- Patch_Name: 14=PR-B:15 Rythmatic
+  Patch_Number: 16.0
+- Patch_Name: 15=PR-B:16 Voyage
+  Patch_Number: 17.0
+- Patch_Name: 16=PR-B:17 S&H Pad
+  Patch_Number: 18.0
+- Patch_Name: 17=PR-B:18 Cyclic Pad
+  Patch_Number: 19.0
+- Patch_Name: 18=PR-B:19 White Hole
+  Patch_Number: 20.0
+- Patch_Name: 19=PR-B:20 EasternSplit
+  Patch_Number: 21.0
+- Patch_Name: 20=PR-B:21 Tekno Asia
+  Patch_Number: 22.0
+- Patch_Name: 21=PR-B:22 TeknoSplit 1
+  Patch_Number: 23.0
+- Patch_Name: 22=PR-B:23 TeknoSplit 2
+  Patch_Number: 24.0
+- Patch_Name: 23=PR-B:24 TknoPopSplit
+  Patch_Number: 25.0
+- Patch_Name: 24=PR-B:25 ChildrenSplt
+  Patch_Number: 26.0
+- Patch_Name: 25=PR-B:26 Purple Split
+  Patch_Number: 27.0
+- Patch_Name: 26=PR-B:27 PulsingSplit
+  Patch_Number: 28.0
+- Patch_Name: 27=PR-B:28 Pad / Lead
+  Patch_Number: 29.0
+- Patch_Name: 28=PR-B:29 Organ / Lead
+  Patch_Number: 30.0
+- Patch_Name: 29=PR-B:30 Bass / Lead
+  Patch_Number: 31.0
+- Patch_Name: 30=PR-B:31 S&H / Pad
+  Patch_Number: 32.0
+- Patch_Name: 31=PR-B:32 Drone / Pipe
+  Patch_Number: 33.0

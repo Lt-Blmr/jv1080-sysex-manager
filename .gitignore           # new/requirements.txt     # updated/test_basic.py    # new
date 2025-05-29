@@ -1,0 +1,21 @@
+.gitignore
+__pycache__/
+.env
+*.pyc
+*.pyo
+*.pyd
+venv/
+
+requirements.txt
+mido
+python-rtmidi
+
+tests/test_basic.py
+import unittest
+
+class TestSysexCommunication(unittest.TestCase):
+    def test_sysex_message(self):
+        self.assertEqual("expected_response", "expected_response")
+
+if __name__ == '__main__':
+    unittest.main()

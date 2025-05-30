@@ -17,7 +17,7 @@ class JV1080Manager:
     Provides full control over JV-1080 parameters and presets.
     """
     
-    def __init__(self, config_path: str = "roland_jv_1080.yaml"):
+    def __init__(self, config_path: str = "roland_jv_1080_fixed.yaml"):
         """Initialize the JV-1080 Manager with YAML configuration."""
         self.config_path = Path(config_path)
         self.config = self._load_config()

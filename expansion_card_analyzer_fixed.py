@@ -58,7 +58,8 @@ class ExpansionCardAnalyzer:
                 'grouped_parameters': grouped_params,
                 'raw_parameters': parameters
             }
-              # Detect card type and banks
+            
+            # Detect card type and banks
             card_info = self._detect_card_type(parameters, file_path.name)
             analysis.update(card_info)
             
@@ -135,7 +136,8 @@ class ExpansionCardAnalyzer:
         
         logger.info("[EXPANSION CARD ANALYSIS] Starting Vintage & Techno Expansion Card Analysis")
         logger.info("=" * 60)
-          results = {}
+        
+        results = {}
         
         for filename in target_files:
             file_path = sysex_dir / filename
@@ -149,7 +151,8 @@ class ExpansionCardAnalyzer:
         self._generate_summary_report(results)
         
         return results
-      def _generate_summary_report(self, results: Dict[str, Any]) -> None:
+    
+    def _generate_summary_report(self, results: Dict[str, Any]) -> None:
         """Generate a comprehensive summary report."""
         
         logger.info("\n" + "=" * 60)
@@ -245,7 +248,8 @@ def main():
     
     analyzer = ExpansionCardAnalyzer()
     
-    try:        # Analyze Vintage and Techno cards
+    try:
+        # Analyze Vintage and Techno cards
         results = analyzer.analyze_vintage_and_techno_cards()
         
         # Validate parser functionality
@@ -273,7 +277,7 @@ def main():
         return validation_passed
         
     except Exception as e:
-        logger.error(f"💥 Analysis failed: {e}")
+        logger.error(f"[CRITICAL] Analysis failed: {e}")
         return False
 
 if __name__ == "__main__":

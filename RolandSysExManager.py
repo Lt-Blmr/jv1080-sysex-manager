@@ -1,0 +1,1 @@
+from legacy.RolandSysExManager import RolandSysExManager

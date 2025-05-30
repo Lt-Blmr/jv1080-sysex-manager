@@ -26,7 +26,7 @@ class JV1080Preset:
     preset_type: str  # 'performance', 'patch', 'rhythm'
     description: str
     parameters: List[PresetParameter]
-    tags: List[str] = None
+    tags: Optional[List[str]] = None
     author: str = "Unknown"
     created_date: str = ""
     
@@ -39,7 +39,7 @@ class PresetBuilder:
     Build and manage JV-1080 presets using the modern YAML configuration.
     """
     
-    def __init__(self, config_path: str = "roland_jv_1080.yaml"):
+    def __init__(self, config_path: str = "roland_jv_1080_fixed.yaml"):
         """Initialize preset builder."""
         self.manager = JV1080Manager(config_path)
         self.config = self.manager.config

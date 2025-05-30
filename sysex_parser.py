@@ -33,7 +33,7 @@ class SysExParser:
     Parses SysEx files and extracts JV-1080 parameters using YAML configuration.
     """
     
-    def __init__(self, config_path: str = "roland_jv_1080.yaml"):
+    def __init__(self, config_path: str = "roland_jv_1080_fixed.yaml"):
         """Initialize parser with YAML configuration."""
         self.manager = JV1080Manager(config_path)
         self.config = self.manager.config
@@ -403,8 +403,7 @@ if __name__ == "__main__":
         addr_space, perf_slot, part_type, offset = base_address
         
         parsed_params = []
-        
-        # Handle different message types based on part_type
+          # Handle different message types based on part_type
         if part_type == 0x00:  # Performance common
             parsed_params.extend(self._parse_common_bulk_data(perf_slot, data_bytes))
         elif part_type in [0x10, 0x12, 0x14, 0x16]:  # Performance parts
@@ -417,8 +416,8 @@ if __name__ == "__main__":
             parsed_params.extend(self._parse_patch_part_bulk_data(perf_slot, part_num, data_bytes))
         elif part_type == 0x60:  # Rhythm common
             parsed_params.extend(self._parse_rhythm_common_bulk_data(perf_slot, data_bytes))
-        elif part_type in [0x62, 0x64]:  # Rhythm parts
-            part_num = (part_type - 0x62) // 2 + 1
+        elif 0x24 <= part_type <= 0x62:  # Rhythm parts 2-64 (0x24 = part 2, 0x62 = part 64)
+            part_num = part_type - 0x23  # Convert address byte to part number (0x24 -> 2, 0x25 -> 3, etc.)
             parsed_params.extend(self._parse_rhythm_part_bulk_data(perf_slot, part_num, data_bytes))
         return parsed_params
     
@@ -487,64 +486,81 @@ if __name__ == "__main__":
         
         return parsed_params
     
-    def _parse_patch_common_bulk_data(self, slot: int, data_bytes: List[int]) -> List[ParsedParameter]:
-        """Parse patch common parameters from bulk data."""
-        parsed = []
-        defs = self._get_patch_common_parameter_definitions()
-        for i, (name, info) in enumerate(defs.items()):
-            if i >= len(data_bytes):
-                break
-            val = data_bytes[i]
-            if info.get('type') == 'signed' and val > 63:
-                val -= 128
-            grp = f"expansion_patch_common_perf_{slot:02d}"
-            parsed.append(ParsedParameter(group_name=grp, parameter_name=name, value=val,
-                                         address=[0x11, slot, 0x20, i], raw_message=[]))
-        return parsed
+    def _parse_patch_common_bulk_data(self, perf_slot: int, data_bytes: List[int]) -> List[ParsedParameter]:
+        """Parse Expansion Card patch common bulk data."""
+        parsed_params = []
+        group_key = 'expansion_patch_common'
+        group_info = self.parameter_groups.get(group_key, {})
+        base_addr = [0x11, perf_slot, int(group_info.get('address_bytes_1_3_hex',[None])[2],16)]
+        for param in group_info.get('parameters', []):
+            off = int(param['offset_hex'], 16)
+            if off < len(data_bytes):
+                value = data_bytes[off]
+                parsed_params.append(ParsedParameter(
+                    group_name=f"{group_key}_perf_{perf_slot:02d}",
+                    parameter_name=param['name'],
+                    value=value,
+                    address=base_addr + [off],
+                    raw_message=[]
+                ))
+        return parsed_params
 
-    def _parse_patch_part_bulk_data(self, slot: int, part_num: int, data_bytes: List[int]) -> List[ParsedParameter]:
-        """Parse patch part parameters from bulk data."""
-        parsed = []
-        defs = self._get_patch_part_parameter_definitions(part_num)
-        grp = f"expansion_patch_part_{part_num}_perf_{slot:02d}"
-        for i, (name, info) in enumerate(defs.items()):
-            if i >= len(data_bytes):
-                break
-            val = data_bytes[i]
-            if info.get('type') == 'signed' and val > 63:
-                val -= 128
-            addr3 = 0x22 + (part_num - 1) * 2
-            parsed.append(ParsedParameter(group_name=grp, parameter_name=name, value=val,
-                                         address=[0x11, slot, addr3, i], raw_message=[]))
-        return parsed
+    def _parse_patch_part_bulk_data(self, perf_slot: int, part_num: int, data_bytes: List[int]) -> List[ParsedParameter]:
+        """Parse Expansion Card patch part bulk data."""
+        parsed_params = []
+        group_key = f'expansion_patch_part_{part_num}'
+        group_info = self.parameter_groups.get(group_key, {})
+        base_addr = [0x11, perf_slot, int(group_info.get('address_bytes_1_3_hex',[None])[2],16)]
+        for param in group_info.get('parameters', []):
+            off = int(param['offset_hex'], 16)
+            if off < len(data_bytes):
+                value = data_bytes[off]
+                parsed_params.append(ParsedParameter(
+                    group_name=f"{group_key}_perf_{perf_slot:02d}",
+                    parameter_name=param['name'],
+                    value=value,
+                    address=base_addr + [off],
+                    raw_message=[]
+                ))
+        return parsed_params
 
-    def _parse_rhythm_common_bulk_data(self, slot: int, data_bytes: List[int]) -> List[ParsedParameter]:
-        """Parse rhythm common parameters from bulk data."""
-        parsed = []
-        defs = self._get_rhythm_common_parameter_definitions()
-        for i, (name, info) in enumerate(defs.items()):
-            if i >= len(data_bytes):
-                break
-            val = data_bytes[i]
-            grp = f"expansion_rhythm_common_perf_{slot:02d}"
-            parsed.append(ParsedParameter(group_name=grp, parameter_name=name, value=val,
-                                         address=[0x11, slot, 0x60, i], raw_message=[]))
-        return parsed
+    def _parse_rhythm_common_bulk_data(self, perf_slot: int, data_bytes: List[int]) -> List[ParsedParameter]:
+        """Parse Expansion Card rhythm common bulk data."""
+        parsed_params = []
+        group_key = 'expansion_rhythm_common'
+        group_info = self.parameter_groups.get(group_key, {})
+        base_addr = [0x11, perf_slot, int(group_info.get('address_bytes_1_3_hex',[None])[2],16)]
+        for param in group_info.get('parameters', []):
+            off = int(param['offset_hex'], 16)
+            if off < len(data_bytes):
+                value = data_bytes[off]
+                parsed_params.append(ParsedParameter(
+                    group_name=f"{group_key}_perf_{perf_slot:02d}",
+                    parameter_name=param['name'],
+                    value=value,
+                    address=base_addr + [off],
+                    raw_message=[]
+                ))
+        return parsed_params
 
-    def _parse_rhythm_part_bulk_data(self, slot: int, part_num: int, data_bytes: List[int]) -> List[ParsedParameter]:
-        """Parse rhythm part parameters from bulk data."""
-        parsed = []
-        defs = self._get_rhythm_part_parameter_definitions(part_num)
-        grp = f"expansion_rhythm_part_{part_num}_perf_{slot:02d}"
-        addr3_base = 0x62
-        for i, (name, info) in enumerate(defs.items()):
-            if i >= len(data_bytes):
-                break
-            val = data_bytes[i]
-            addr3 = addr3_base + (part_num - 1) * 2
-            parsed.append(ParsedParameter(group_name=grp, parameter_name=name, value=val,
-                                         address=[0x11, slot, addr3, i], raw_message=[]))
-        return parsed
+    def _parse_rhythm_part_bulk_data(self, perf_slot: int, part_num: int, data_bytes: List[int]) -> List[ParsedParameter]:
+        """Parse Expansion Card rhythm part bulk data."""
+        parsed_params = []
+        group_key = f'expansion_rhythm_part_{part_num}'
+        group_info = self.parameter_groups.get(group_key, {})
+        base_addr = [0x11, perf_slot, int(group_info.get('address_bytes_1_3_hex',[None])[2],16)]
+        for param in group_info.get('parameters', []):
+            off = int(param['offset_hex'], 16)
+            if off < len(data_bytes):
+                value = data_bytes[off]
+                parsed_params.append(ParsedParameter(
+                    group_name=f"{group_key}_perf_{perf_slot:02d}",
+                    parameter_name=param['name'],
+                    value=value,
+                    address=base_addr + [off],
+                    raw_message=[]
+                ))
+        return parsed_params
 
     def _get_common_parameter_definitions(self) -> Dict[str, Dict]:
         """Get common parameter definitions from YAML config."""

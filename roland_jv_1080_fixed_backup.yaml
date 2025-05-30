@@ -416,8 +416,7 @@ roland_jv_1080:
           offset_hex: "1D"
           min: 0
           max: 126
-          bytes: 1
-  - name: "Chorus Level"
+          bytes: 1        - name: "Chorus Level"
           offset_hex: "1E"
           min: 0
           max: 127
@@ -603,162 +602,162 @@ roland_jv_1080:
       default_device_id_hex: '10'
       address_bytes_1_3_hex: ['11','00','22']
       parameters:
-      - name: "Bank" MSB
+      - name: Bank MSB
         offset_hex: '00'
         min: 0
         max: 127
         bytes: 1
-      - name: "Bank" LSB
+      - name: Bank LSB
         offset_hex: '01'
         min: 0
         max: 127
         bytes: 1
-      - name: "Program" Change
+      - name: Program Change
         offset_hex: '02'
         min: 0
         max: 127
         bytes: 1
-      - name: "Level"
+      - name: Level
         offset_hex: '03'
         min: 0
         max: 127
         bytes: 1
-      - name: "Pan"
+      - name: Pan
         offset_hex: '04'
         min: 1
         max: 127
         bytes: 1
-      - name: "Expression"
+      - name: Expression
         offset_hex: '05'
         min: 0
         max: 127
         bytes: 1
-      - name: "Pitch" Bend Range Up
+      - name: Pitch Bend Range Up
         offset_hex: '06'
         min: 0
         max: 12
         bytes: 1
-      - name: "Pitch" Bend Range Down
+      - name: Pitch Bend Range Down
         offset_hex: '07'
         min: 0
         max: 48
         bytes: 1
-      - name: "Key" Assign Mode
+      - name: Key Assign Mode
         offset_hex: '08'
         min: 0
         max: 1
         bytes: 1
-      - name: "Solo" Legato
+      - name: Solo Legato
         offset_hex: '09'
         min: 0
         max: 1
         bytes: 1
-      - name: "Portamento" Switch
+      - name: Portamento Switch
         offset_hex: '0A'
         min: 0
         max: 1
         bytes: 1
-      - name: "Portamento" Time
+      - name: Portamento Time
         offset_hex: '0B'
         min: 0
         max: 127
         bytes: 1
-      - name: "Portamento" Start
+      - name: Portamento Start
         offset_hex: '0C'
         min: 0
         max: 1
         bytes: 1
-      - name: "Filter" Cutoff Frequency
+      - name: Filter Cutoff Frequency
         offset_hex: '0D'
         min: 0
         max: 127
         bytes: 1
-      - name: "Filter" Resonance
+      - name: Filter Resonance
         offset_hex: '0E'
         min: 0
         max: 127
         bytes: 1
-      - name: "Filter" Envelope Depth
+      - name: Filter Envelope Depth
         offset_hex: '0F'
         min: 0
         max: 126
         bytes: 1
-      - name: "Filter" Envelope Time 1
+      - name: Filter Envelope Time 1
         offset_hex: '10'
         min: 0
         max: 127
         bytes: 1
-      - name: "Filter" Envelope Time 2
+      - name: Filter Envelope Time 2
         offset_hex: '11'
         min: 0
         max: 127
         bytes: 1
-      - name: "Filter" Envelope Time 3
+      - name: Filter Envelope Time 3
         offset_hex: '12'
         min: 0
         max: 127
         bytes: 1
-      - name: "Filter" Envelope Time 4
+      - name: Filter Envelope Time 4
         offset_hex: '13'
         min: 0
         max: 127
         bytes: 1
-      - name: "Filter" Envelope Level 1
+      - name: Filter Envelope Level 1
         offset_hex: '14'
         min: 0
         max: 126
         bytes: 1
-      - name: "Filter" Envelope Level 2
+      - name: Filter Envelope Level 2
         offset_hex: '15'
         min: 0
         max: 126
         bytes: 1
-      - name: "LFO" Waveform
+      - name: LFO Waveform
         offset_hex: '16'
         min: 0
         max: 7
         bytes: 1
-      - name: "LFO" Rate
+      - name: LFO Rate
         offset_hex: '17'
         min: 0
         max: 127
         bytes: 1
-      - name: "LFO" Delay Time
+      - name: LFO Delay Time
         offset_hex: '18'
         min: 0
         max: 127
         bytes: 1
-      - name: "LFO" Depth
+      - name: LFO Depth
         offset_hex: '19'
         min: 0
         max: 126
         bytes: 1
-      - name: "Chorus" Send Level
+      - name: Chorus Send Level
         offset_hex: '1A'
         min: 0
         max: 127
         bytes: 1
-      - name: "Reverb" Send Level
+      - name: Reverb Send Level
         offset_hex: '1B'
         min: 0
         max: 127
         bytes: 1
-      - name: "Volume"
+      - name: Volume
         offset_hex: '1C'
         min: 0
         max: 127
         bytes: 1
-      - name: "Pan"
+      - name: Pan
         offset_hex: '1D'
         min: 0
         max: 127
         bytes: 1
-      - name: "Priority"
+      - name: Priority
         offset_hex: '1E'
         min: 0
         max: 1
         bytes: 1
-      - name: "Pan" Key Follow
+      - name: Pan Key Follow
         offset_hex: '1F'
         min: 0
         max: 14
@@ -768,162 +767,162 @@ roland_jv_1080:
       default_device_id_hex: '10'
       address_bytes_1_3_hex: ['11','00','24']
       parameters:
-      - name: "Bank" MSB
+      - name: Bank MSB
         offset_hex: '00'
         min: 0
         max: 127
         bytes: 1
-      - name: "Bank" LSB
+      - name: Bank LSB
         offset_hex: '01'
         min: 0
         max: 127
         bytes: 1
-      - name: "Program" Change
+      - name: Program Change
         offset_hex: '02'
         min: 0
         max: 127
         bytes: 1
-      - name: "Level"
+      - name: Level
         offset_hex: '03'
         min: 0
         max: 127
         bytes: 1
-      - name: "Pan"
+      - name: Pan
         offset_hex: '04'
         min: 1
         max: 127
         bytes: 1
-      - name: "Expression"
+      - name: Expression
         offset_hex: '05'
         min: 0
         max: 127
         bytes: 1
-      - name: "Pitch" Bend Range Up
+      - name: Pitch Bend Range Up
         offset_hex: '06'
         min: 0
         max: 12
         bytes: 1
-      - name: "Pitch" Bend Range Down
+      - name: Pitch Bend Range Down
         offset_hex: '07'
         min: 0
         max: 48
         bytes: 1
-      - name: "Key" Assign Mode
+      - name: Key Assign Mode
         offset_hex: '08'
         min: 0
         max: 1
         bytes: 1
-      - name: "Solo" Legato
+      - name: Solo Legato
         offset_hex: '09'
         min: 0
         max: 1
         bytes: 1
-      - name: "Portamento" Switch
+      - name: Portamento Switch
         offset_hex: '0A'
         min: 0
         max: 1
         bytes: 1
-      - name: "Portamento" Time
+      - name: Portamento Time
         offset_hex: '0B'
         min: 0
         max: 127
         bytes: 1
-      - name: "Portamento" Start
+      - name: Portamento Start
         offset_hex: '0C'
         min: 0
         max: 1
         bytes: 1
-      - name: "Filter" Cutoff Frequency
+      - name: Filter Cutoff Frequency
         offset_hex: '0D'
         min: 0
         max: 127
         bytes: 1
-      - name: "Filter" Resonance
+      - name: Filter Resonance
         offset_hex: '0E'
         min: 0
         max: 127
         bytes: 1
-      - name: "Filter" Envelope Depth
+      - name: Filter Envelope Depth
         offset_hex: '0F'
         min: 0
         max: 126
         bytes: 1
-      - name: "Filter" Envelope Time 1
+      - name: Filter Envelope Time 1
         offset_hex: '10'
         min: 0
         max: 127
         bytes: 1
-      - name: "Filter" Envelope Time 2
+      - name: Filter Envelope Time 2
         offset_hex: '11'
         min: 0
         max: 127
         bytes: 1
-      - name: "Filter" Envelope Time 3
+      - name: Filter Envelope Time 3
         offset_hex: '12'
         min: 0
         max: 127
         bytes: 1
-      - name: "Filter" Envelope Time 4
+      - name: Filter Envelope Time 4
         offset_hex: '13'
         min: 0
         max: 127
         bytes: 1
-      - name: "Filter" Envelope Level 1
+      - name: Filter Envelope Level 1
         offset_hex: '14'
         min: 0
         max: 126
         bytes: 1
-      - name: "Filter" Envelope Level 2
+      - name: Filter Envelope Level 2
         offset_hex: '15'
         min: 0
         max: 126
         bytes: 1
-      - name: "LFO" Waveform
+      - name: LFO Waveform
         offset_hex: '16'
         min: 0
         max: 7
         bytes: 1
-      - name: "LFO" Rate
+      - name: LFO Rate
         offset_hex: '17'
         min: 0
         max: 127
         bytes: 1
-      - name: "LFO" Delay Time
+      - name: LFO Delay Time
         offset_hex: '18'
         min: 0
         max: 127
         bytes: 1
-      - name: "LFO" Depth
+      - name: LFO Depth
         offset_hex: '19'
         min: 0
         max: 126
         bytes: 1
-      - name: "Chorus" Send Level
+      - name: Chorus Send Level
         offset_hex: '1A'
         min: 0
         max: 127
         bytes: 1
-      - name: "Reverb" Send Level
+      - name: Reverb Send Level
         offset_hex: '1B'
         min: 0
         max: 127
         bytes: 1
-      - name: "Volume"
+      - name: Volume
         offset_hex: '1C'
         min: 0
         max: 127
         bytes: 1
-      - name: "Pan"
+      - name: Pan
         offset_hex: '1D'
         min: 0
         max: 127
         bytes: 1
-      - name: "Priority"
+      - name: Priority
         offset_hex: '1E'
         min: 0
         max: 1
         bytes: 1
-      - name: "Pan" Key Follow
+      - name: Pan Key Follow
         offset_hex: '1F'
         min: 0
         max: 14
@@ -933,162 +932,162 @@ roland_jv_1080:
       default_device_id_hex: '10'
       address_bytes_1_3_hex: ['11','00','26']
       parameters:
-      - name: "Bank" MSB
+      - name: Bank MSB
         offset_hex: '00'
         min: 0
         max: 127
         bytes: 1
-      - name: "Bank" LSB
+      - name: Bank LSB
         offset_hex: '01'
         min: 0
         max: 127
         bytes: 1
-      - name: "Program" Change
+      - name: Program Change
         offset_hex: '02'
         min: 0
         max: 127
         bytes: 1
-      - name: "Level"
+      - name: Level
         offset_hex: '03'
         min: 0
         max: 127
         bytes: 1
-      - name: "Pan"
+      - name: Pan
         offset_hex: '04'
         min: 1
         max: 127
         bytes: 1
-      - name: "Expression"
+      - name: Expression
         offset_hex: '05'
         min: 0
         max: 127
         bytes: 1
-      - name: "Pitch" Bend Range Up
+      - name: Pitch Bend Range Up
         offset_hex: '06'
         min: 0
         max: 12
         bytes: 1
-      - name: "Pitch" Bend Range Down
+      - name: Pitch Bend Range Down
         offset_hex: '07'
         min: 0
         max: 48
         bytes: 1
-      - name: "Key" Assign Mode
+      - name: Key Assign Mode
         offset_hex: '08'
         min: 0
         max: 1
         bytes: 1
-      - name: "Solo" Legato
+      - name: Solo Legato
         offset_hex: '09'
         min: 0
         max: 1
         bytes: 1
-      - name: "Portamento" Switch
+      - name: Portamento Switch
         offset_hex: '0A'
         min: 0
         max: 1
         bytes: 1
-      - name: "Portamento" Time
+      - name: Portamento Time
         offset_hex: '0B'
         min: 0
         max: 127
         bytes: 1
-      - name: "Portamento" Start
+      - name: Portamento Start
         offset_hex: '0C'
         min: 0
         max: 1
         bytes: 1
-      - name: "Filter" Cutoff Frequency
+      - name: Filter Cutoff Frequency
         offset_hex: '0D'
         min: 0
         max: 127
         bytes: 1
-      - name: "Filter" Resonance
+      - name: Filter Resonance
         offset_hex: '0E'
         min: 0
         max: 127
         bytes: 1
-      - name: "Filter" Envelope Depth
+      - name: Filter Envelope Depth
         offset_hex: '0F'
         min: 0
         max: 126
         bytes: 1
-      - name: "Filter" Envelope Time 1
+      - name: Filter Envelope Time 1
         offset_hex: '10'
         min: 0
         max: 127
         bytes: 1
-      - name: "Filter" Envelope Time 2
+      - name: Filter Envelope Time 2
         offset_hex: '11'
         min: 0
         max: 127
         bytes: 1
-      - name: "Filter" Envelope Time 3
+      - name: Filter Envelope Time 3
         offset_hex: '12'
         min: 0
         max: 127
         bytes: 1
-      - name: "Filter" Envelope Time 4
+      - name: Filter Envelope Time 4
         offset_hex: '13'
         min: 0
         max: 127
         bytes: 1
-      - name: "Filter" Envelope Level 1
+      - name: Filter Envelope Level 1
         offset_hex: '14'
         min: 0
         max: 126
         bytes: 1
-      - name: "Filter" Envelope Level 2
+      - name: Filter Envelope Level 2
         offset_hex: '15'
         min: 0
         max: 126
         bytes: 1
-      - name: "LFO" Waveform
+      - name: LFO Waveform
         offset_hex: '16'
         min: 0
         max: 7
         bytes: 1
-      - name: "LFO" Rate
+      - name: LFO Rate
         offset_hex: '17'
         min: 0
         max: 127
         bytes: 1
-      - name: "LFO" Delay Time
+      - name: LFO Delay Time
         offset_hex: '18'
         min: 0
         max: 127
         bytes: 1
-      - name: "LFO" Depth
+      - name: LFO Depth
         offset_hex: '19'
         min: 0
         max: 126
         bytes: 1
-      - name: "Chorus" Send Level
+      - name: Chorus Send Level
         offset_hex: '1A'
         min: 0
         max: 127
         bytes: 1
-      - name: "Reverb" Send Level
+      - name: Reverb Send Level
         offset_hex: '1B'
         min: 0
         max: 127
         bytes: 1
-      - name: "Volume"
+      - name: Volume
         offset_hex: '1C'
         min: 0
         max: 127
         bytes: 1
-      - name: "Pan"
+      - name: Pan
         offset_hex: '1D'
         min: 0
         max: 127
         bytes: 1
-      - name: "Priority"
+      - name: Priority
         offset_hex: '1E'
         min: 0
         max: 1
         bytes: 1
-      - name: "Pan" Key Follow
+      - name: Pan Key Follow
         offset_hex: '1F'
         min: 0
         max: 14
@@ -1098,162 +1097,162 @@ roland_jv_1080:
       default_device_id_hex: '10'
       address_bytes_1_3_hex: ['11','00','28']
       parameters:
-      - name: "Bank" MSB
+      - name: Bank MSB
         offset_hex: '00'
         min: 0
         max: 127
         bytes: 1
-      - name: "Bank" LSB
+      - name: Bank LSB
         offset_hex: '01'
         min: 0
         max: 127
         bytes: 1
-      - name: "Program" Change
+      - name: Program Change
         offset_hex: '02'
         min: 0
         max: 127
         bytes: 1
-      - name: "Level"
+      - name: Level
         offset_hex: '03'
         min: 0
         max: 127
         bytes: 1
-      - name: "Pan"
+      - name: Pan
         offset_hex: '04'
         min: 1
         max: 127
         bytes: 1
-      - name: "Expression"
+      - name: Expression
         offset_hex: '05'
         min: 0
         max: 127
         bytes: 1
-      - name: "Pitch" Bend Range Up
+      - name: Pitch Bend Range Up
         offset_hex: '06'
         min: 0
         max: 12
         bytes: 1
-      - name: "Pitch" Bend Range Down
+      - name: Pitch Bend Range Down
         offset_hex: '07'
         min: 0
         max: 48
         bytes: 1
-      - name: "Key" Assign Mode
+      - name: Key Assign Mode
         offset_hex: '08'
         min: 0
         max: 1
         bytes: 1
-      - name: "Solo" Legato
+      - name: Solo Legato
         offset_hex: '09'
         min: 0
         max: 1
         bytes: 1
-      - name: "Portamento" Switch
+      - name: Portamento Switch
         offset_hex: '0A'
         min: 0
         max: 1
         bytes: 1
-      - name: "Portamento" Time
+      - name: Portamento Time
         offset_hex: '0B'
         min: 0
         max: 127
         bytes: 1
-      - name: "Portamento" Start
+      - name: Portamento Start
         offset_hex: '0C'
         min: 0
         max: 1
         bytes: 1
-      - name: "Filter" Cutoff Frequency
+      - name: Filter Cutoff Frequency
         offset_hex: '0D'
         min: 0
         max: 127
         bytes: 1
-      - name: "Filter" Resonance
+      - name: Filter Resonance
         offset_hex: '0E'
         min: 0
         max: 127
         bytes: 1
-      - name: "Filter" Envelope Depth
+      - name: Filter Envelope Depth
         offset_hex: '0F'
         min: 0
         max: 126
         bytes: 1
-      - name: "Filter" Envelope Time 1
+      - name: Filter Envelope Time 1
         offset_hex: '10'
         min: 0
         max: 127
         bytes: 1
-      - name: "Filter" Envelope Time 2
+      - name: Filter Envelope Time 2
         offset_hex: '11'
         min: 0
         max: 127
         bytes: 1
-      - name: "Filter" Envelope Time 3
+      - name: Filter Envelope Time 3
         offset_hex: '12'
         min: 0
         max: 127
         bytes: 1
-      - name: "Filter" Envelope Time 4
+      - name: Filter Envelope Time 4
         offset_hex: '13'
         min: 0
         max: 127
         bytes: 1
-      - name: "Filter" Envelope Level 1
+      - name: Filter Envelope Level 1
         offset_hex: '14'
         min: 0
         max: 126
         bytes: 1
-      - name: "Filter" Envelope Level 2
+      - name: Filter Envelope Level 2
         offset_hex: '15'
         min: 0
         max: 126
         bytes: 1
-      - name: "LFO" Waveform
+      - name: LFO Waveform
         offset_hex: '16'
         min: 0
         max: 7
         bytes: 1
-      - name: "LFO" Rate
+      - name: LFO Rate
         offset_hex: '17'
         min: 0
         max: 127
         bytes: 1
-      - name: "LFO" Delay Time
+      - name: LFO Delay Time
         offset_hex: '18'
         min: 0
         max: 127
         bytes: 1
-      - name: "LFO" Depth
+      - name: LFO Depth
         offset_hex: '19'
         min: 0
         max: 126
         bytes: 1
-      - name: "Chorus" Send Level
+      - name: Chorus Send Level
         offset_hex: '1A'
         min: 0
         max: 127
         bytes: 1
-      - name: "Reverb" Send Level
+      - name: Reverb Send Level
         offset_hex: '1B'
         min: 0
         max: 127
         bytes: 1
-      - name: "Volume"
+      - name: Volume
         offset_hex: '1C'
         min: 0
         max: 127
         bytes: 1
-      - name: "Pan"
+      - name: Pan
         offset_hex: '1D'
         min: 0
         max: 127
         bytes: 1
-      - name: "Priority"
+      - name: Priority
         offset_hex: '1E'
         min: 0
         max: 1
         bytes: 1
-      - name: "Pan" Key Follow
+      - name: Pan Key Follow
         offset_hex: '1F'
         min: 0
         max: 14

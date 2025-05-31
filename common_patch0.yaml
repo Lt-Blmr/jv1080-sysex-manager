@@ -1,0 +1,65 @@
+aftertouch_depth: 0
+amp_eg_level:
+- 0
+- 0
+- 0
+- 0
+amp_eg_rate:
+- 2
+- 2
+- 0
+- 0
+bank: 0
+category: 32
+chorus_send: 15
+filter_cutoff: 0
+filter_eg_attack_vel: 2
+filter_eg_level:
+- 8
+- 127
+- 64
+- 4
+filter_eg_rate:
+- 80
+- 13
+- 0
+- 7
+filter_eg_release_vel: 0
+filter_resonance: 1
+fine_tune: 0
+key_range_high: 0
+key_range_low: 0
+key_transpose: 0
+lfo1_amd: 15
+lfo1_delay: 7
+lfo1_pmd: 1
+lfo1_rate: 15
+lfo2_amd: 0
+lfo2_delay: 0
+lfo2_dest: 0
+lfo2_pmd: 127
+lfo2_rate: 127
+output_level: 1
+patch_name: Celt/Fiddle
+patch_number: 0
+pb_range: 63
+pcm_bank: 15
+pitch_eg_level:
+- 0
+- 0
+- 4
+- 127
+pitch_eg_rate:
+- 127
+- 3
+- 80
+- 0
+portamento_curve: 0
+portamento_switch: 0
+portamento_time: 0
+reserved_pad1: 0
+reverb_send: 7
+transpose: 63
+vel_range_high: 4
+vel_range_low: 1
+velocity_to_amp_depth: 0
